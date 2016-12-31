@@ -44,7 +44,7 @@ body {
   margin: 0;
 }
 
-$border-color: $color-sand;
+$border-color: $color-black;
 $border-width: ms(-13);
 
 body:before, body:after {
@@ -54,6 +54,7 @@ body:before, body:after {
     left: 0;
     right: 0;
     height: $border-width;
+    z-index: 2;
 }
 body:before {
   top: 0;
@@ -61,15 +62,16 @@ body:before {
 body:after {
   bottom: 0;
 }
-body {
-  border-left: $border-width solid $border-color;
-  border-right: $border-width solid $border-color;
-}
+// body {
+//   border-left: $border-width solid $border-color;
+//   border-right: $border-width solid $border-color;
+// }
 
 article {
   margin: 0 auto;
   max-width: vr(20);
-  padding: vr(4) vr(1);
+  overflow: visible;
+  padding: vr(3) vr(1, ms(-1));
   position: relative;
   // @include vr-grid();
 }
@@ -83,7 +85,7 @@ h1 {
   line-height: vr-strip(vr(1, ms(3)));
   margin-top: 0;
   margin-right: 0;
-  margin-bottom: vr(3, ms(8));
+  margin-bottom: vr(2, ms(8));
   margin-left: -4px;
   transform: rotate(-5deg);
   word-spacing: 0.01em;
@@ -98,13 +100,26 @@ p {
 h2 {
   font-size: ms(3);
   font-weight: 600;
-  letter-spacing: 0.008em;
+  letter-spacing: 0.003em;
   line-height: vr-strip(vr(1, ms(3)));
   margin-bottom: vr(1, ms(3));
-  word-spacing: 0.008em;
+  position: relative;
+}
+
+.pig {
+  opacity: .7;
+  position: relative;
+
+  @media screen and (min-width : 1025px) {
+    bottom: 4px;
+    height: vr(1);
+    position: absolute;
+    right: calc(100% + 1.266em);
+  }
 }
 
 h3 {
+  color: $color-blackOffset;
   font-size: ms(1);
   font-weight: 700;
   letter-spacing: 0.008em;
@@ -139,12 +154,17 @@ ul {
 
 li {
   background: url(../public/egg.svg) no-repeat;
+  background-position: ms(2) ms(-3);
+  background-size: ms(1);
   list-style: none;
   margin-bottom: vr(1);
-  margin-left: ms(8) * -1;
-  padding-left: ms(8);
-  background-size: ms(1);
-  background-position: ms(2) ms(-3);
+  margin-left: ms(9) * -1;
+  padding-left: ms(9);
+
+  @media screen and (min-width : 1025px) {
+    margin-left: ms(10) * -1;
+    padding-left: ms(10);
+  }
 }
 
 code {
@@ -158,10 +178,4 @@ code {
   height: ms(0);
   vertical-align: middle;
   width: auto;
-}
-.pig {
-  height: ms(7);
-  position: fixed;
-  right: ms(0);
-  bottom: ms(-16);
 }
