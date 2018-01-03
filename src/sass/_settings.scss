@@ -1,0 +1,38 @@
+@import "modular-scale";
+@import "vertical-rhythmic";
+
+// Color palette
+$color-white: rgb(255,255,255);
+$color-black: rgb(5,5,23);
+$color-sand: rgb(224,203,168);
+
+$color-blue: rgb(98,60,234);
+$color-blueShade: mix($color-blue, $color-black, 40%);
+
+$color-yellow: rgb(237,240,96);
+$color-yellowTint: mix($color-yellow, $color-white, 40%);
+
+$color-red: rgb(222, 60, 75);
+
+$color-green: rgb(21,127,31);
+
+$color-blackOffset: mix($color-black, $color-sand, 70%);
+$color-blackOffset--light: mix($color-black, $color-sand, 40%);
+$color-whiteOffset: mix($color-white, $color-sand, 90%);
+
+// Fonts
+$serif: "freight-text-pro", Georgia, Times, "Times New Roman", serif;
+$serif-display: "freight-display-pro", Georgia, Times, "Times New Roman", serif;
+$sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$mono: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+
+// Set modular scale vars
+$ms-ratio: $major-second;
+$ms-base: 1em;
+
+// Set vertical-rhythm vars
+$vr-rhythm: ms(4);
+
+// Page border
+$border-color: $color-black;
+$border-width: ms(-13);

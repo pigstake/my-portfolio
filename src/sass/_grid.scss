@@ -1,0 +1,49 @@
+@mixin basic-styles {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: teal;
+	color: white;
+	font-size: 48px;
+}
+
+@mixin display-grid {
+	display: -ms-grid;
+	display: grid;
+}
+
+.grid-parent {
+	@include display-grid;
+	-ms-grid-columns: 75px 1fr 50px 50px;
+	-ms-grid-rows: 1fr 1fr 1fr;
+	grid-template-columns: 75px 1fr repeat(2, 50px);
+	grid-template-rows: 1fr 1fr 1fr;
+	height: 300px;
+	max-width: 500px;
+	border: 10px solid tomato;
+	padding: 10px;
+}
+
+@mixin grid-child ($col-start, $col-end, $row-start, $row-end) {
+	-ms-grid-column: $col-start;
+	-ms-grid-column-span: $col-end - $col-start;
+	-ms-grid-row: $row-start;
+	-ms-grid-row-span: $row-end - $row-start;
+	grid-column: #{$col-start}/#{$col-end};
+	grid-row: #{$row-start}#{$row-end};
+}
+
+.grid-child--1 {
+	@include basic-styles;
+	@include grid-child(1,2,1,2);
+}
+
+.grid-child--2 {
+	@include basic-styles;
+	@include grid-child(2,3,2,3);
+}
+
+.grid-child--3 {
+	@include basic-styles;
+	@include grid-child(3,5,1,2);
+}
