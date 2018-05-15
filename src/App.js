@@ -13,6 +13,17 @@ class App extends Component {
         </header>
         <article className='work'>
           <section className='work-copy'>
+            <h2>VITAL Card</h2>
+            <p>Coming soon</p>
+          </section>
+          <figure>
+            <a className='img-link' href='http://vitalcard.com' target='_blank'>
+              <img className='img-full' src='portfolio/vital-devices.png' alt='VITAL landing page displayed in multiple devices'/>
+            </a>
+          </figure>
+        </article>
+        <article className='work'>
+          <section className='work-copy'>
             <h2>Dotvoter</h2>
             <p>Dotvoter is the fastest way for remote teams to surface and prioritize ideas. It’s an internal product I started at Philosophie. I acted as product manager, lead designer, and contributed all of the styling code. After launch I led small teams in uncovering user needs, prioritizing problems to solve, and delivering product.</p>
           </section>
@@ -39,11 +50,15 @@ class App extends Component {
         <section className='work-copy'>
           <h2>Badger</h2>
           <p>Badger is a performance feedback mobile app. How can personal data help employees? Their teams? Their managers? I was design lead on this product at Philosophie. My team was five strong — three engineers, myself and a product manager.</p>
+        </section>
+        <figure>
+          <a className='img-link' href='http://photos.app.goo.gl/ZhBl9yCMAExw48XK2' target='_blank'>
+            <img className='img-full' src='portfolio/badger-sketch.png' alt='Designs in Sketch'/>
+          </a>
+        </figure>
+        <section className='work-copy'>
           <p>To kick us off, I ran a design sprint. For six months, I facilitated creative studios, led agile-style meetings, ran user research efforts, built prototypes, iterated and shipped product.</p>
           <figure>
-            <a className='img-link' href='http://photos.app.goo.gl/ZhBl9yCMAExw48XK2' target='_blank'>
-              <img className='img-full' src='portfolio/badger-sketch.jpg' alt='Designs in Sketch'/>
-            </a>
             <a className='img-link' href='http://photos.app.goo.gl/ZhBl9yCMAExw48XK2' target='_blank'>
               <img className='img-full' src='portfolio/badger-research.jpg' alt='Sticky notes with research notes organized'/>
             </a>
@@ -56,11 +71,15 @@ class App extends Component {
         <section className='work-copy'>
           <h2>Field Service OS</h2>
           <p>I was design lead on this project at Philosophie. My product team was six strong — one strategist, two designers, two engineers and a program manager.</p>
+        </section>
+        <figure>
+          <a className='img-link' href='http://photos.google.com/album/AF1QipOED9mNSxvAzfEfEpCkp2CmO34fzkfRw8AHTHh2' target='_blank'>
+            <img className='img-full' src='portfolio/fso-sketch.png' alt='Two mocks in Sketch'/>
+          </a>
+        </figure>
+        <section className='work-copy'>
           <p>I led my team through research and cooperative design workshops with dispatchers and field techs. We discovered an opportunity for field service teams at the intersection of machine learning, chatbots and business process transformation. For nine months, I ran user research, built prototypes, and wrote front-end code for the production app.</p>
           <figure>
-            <a className='img-link' href='http://photos.google.com/album/AF1QipOED9mNSxvAzfEfEpCkp2CmO34fzkfRw8AHTHh2' target='_blank'>
-              <img className='img-full' src='portfolio/fso-sketch.jpg' alt='Two mocks in Sketch'/>
-            </a>
             <a className='img-link' href='http://photos.google.com/album/AF1QipOED9mNSxvAzfEfEpCkp2CmO34fzkfRw8AHTHh2' target='_blank'>
               <img className='img-full' src='portfolio/fso-taskflow.jpg' alt='Taskflow sketched'/>
             </a>
@@ -73,7 +92,7 @@ class App extends Component {
           <p>I worked directly with a New York City pizza restaurant owner as product and design lead. He wanted to grow online orders and move away from third-party solutions. I helped him explore opportunities in a Lean way, launching experiments and discovering unknown opportunities for his customers. We identified a few solutions that should convert Grubhub and Seamless customers.</p>
           <figure>
             <a className='img-link' href='http://photos.app.goo.gl/E0qiUXvqx7Zej9zT2' target='_blank'>
-              <img className='img-full' src='portfolio/bakers-sketch.jpg' alt='Designs in Sketch'/>
+              <img className='img-full' src='portfolio/bakers-sketch.png' alt='Designs in Sketch'/>
             </a>
             <a className='img-link' href='http://photos.app.goo.gl/E0qiUXvqx7Zej9zT2' target='_blank'>
               <img className='img-full' src='portfolio/bakers-goals.jpg' alt='Sticky notes and sketching'/>
