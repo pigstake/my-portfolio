@@ -10,131 +10,144 @@ html {
   line-height: vr-strip(vr(1));
 }
 body {
-  border-right: solid $border-width $border-color;
+  // border-left: solid $border-width /2 $border-color;
   color: $color-black;
   font-family: $serif;
   font-size: ms(1);
   margin: 0;
   // @include vr-grid();
+  @media screen and (min-width : 768px) {
+    // border-width: $border-width;
+  }
 }
-body:before {
-    content: "";
-    position: fixed;
-    background: $border-color;
-    left: 0;
-    right: 0;
-    height: $border-width;
-    z-index: 2;
-}
-body:before {
-  top: 0;
-}
+// body:before {
+//     content: "";
+//     position: fixed;
+//     background: $border-color;
+//     left: 0;
+//     right: 0;
+//     height: $border-width;
+//     z-index: 2;
+// }
+// body:before {
+//   top: 0;
+// }
 // body:after {
 //   bottom: 0;
 // }
-article {
-  margin: 0 auto;
-  max-width: vr(20);
+main {
   overflow: visible;
-  padding: vr(3) vr(1, ms(-1));
-  position: relative;
 }
 .hero {
-  margin-bottom: vr(3, ms(8));
+  padding: vr(3) vr(1, ms(3));
+  @media screen and (min-width : 768px) {
+    padding-top: vr(5);
+    padding-bottom: vr(5);
+  }
   @media screen and (min-width : 960px) {
-    margin-bottom: vr(3, ms(9));
+    padding-left: vr(1);
+    padding-right: vr(1);
   }
 }
 h1 {
   font-family: $serif-display;
-  font-size: ms(8);
+  font-size: ms(7);
   font-style: italic;
   font-weight: 900;
-  letter-spacing: 0.01em;
-  line-height: vr-strip(vr(2, ms(8)));
-  margin-top: 0;
-  margin-left: -4px;
-  margin-right: 0;
-  transform: rotate(-5deg);
-  @media screen and (min-width : 632px) {
-    margin-top: vr(1, ms(8));
-  }
-  @media screen and (min-width : 960px) {
+  letter-spacing: -0.01em;
+  line-height: vr-strip(vr(2, ms(7)));
+  margin: 0;
+  transform: rotate(-11deg);
+  @media screen and (min-width : 375px) {
     font-size: ms(9);
     line-height: vr-strip(vr(2, ms(9)));
-    margin-top: vr(1, ms(9));
-    margin-left: vr(1, ms(0)) *-1;
-    word-spacing: 0.01em;
+  }
+  @media screen and (min-width : 480px) {
+    font-size: ms(11);
+    letter-spacing: 0;
+    line-height: vr-strip(vr(2, ms(11)));
+  }
+  @media screen and (min-width : 640px) {
+    font-size: ms(13);
+    line-height: vr-strip(vr(3, ms(13)));
+  }
+  @media screen and (min-width : 768px) {
+    font-size: ms(14);
+    letter-spacing: 0.01em;
+    line-height: vr-strip(vr(3, ms(14)));
+    // margin-top: vr(1, ms(14));
+    // margin-left: vr(1, ms(0)) *-1;
+    // word-spacing: 0.01em;
   }
 }
-
 .subtitle {
   color: $color-blackOffset--light;
-  font-size: ms(-2);
-  font-style: italic;
-  // transform: rotate(-5deg);
-  @media screen and (min-width : 960px) {
+  display: block;
+  font-size: ms(0);
+  letter-spacing: ms(-21);
+  padding-top: vr(2, ms(0));
+  right: 0;
+  text-align: right;
+  @media screen and (min-width : 761px) {
     // margin-left: vr(1, ms(0)) *-1;
   }
 }
-
 h2,
 h3,
 h4 {
  font-weight: 700;
 }
-
 h2,
 h3,
 p {
   margin-top: 0;
 }
-
 h2 {
-  font-size: ms(3);
-  letter-spacing: 0.003em;
-  line-height: vr-strip(vr(1, ms(3)));
-  margin-bottom: vr(1, ms(3));
+  border-left: solid vr(1000) $color-black;
+  font-size: ms(6);
+  letter-spacing: ms(-34) *-1;
+  line-height: 3px;
+  margin-top: -3px;
+  margin-bottom: vr(3, ms(6));
+  margin-left: vr(1000) *-1 - vr(1, ms(18));
+  padding-left: vr(1, ms(18));
   position: relative;
+  @media screen and (min-width : 480px) {
+    font-size: ms(8);
+    margin-bottom: vr(3, ms(8));
+  }
+  @media screen and (min-width : 768px) {
+    font-size: ms(9);
+    letter-spacing: -1px;
+    margin-bottom: vr(3, ms(9));
+    margin-left: vr(1000) *-1 - vr(1, ms(9));
+    padding-left: vr(1, ms(9));
+  }
 }
-
 h3 {
-  font-size: ms(1);
-  letter-spacing: 0.008em;
-  line-height: vr-strip(vr(1, ms(1)));
-  margin: vr(1, ms(2)) 0;
-  position: relative;
-}
-
-h4 {
-  font-size: ms(0);
+  font-size: ms(3);
   letter-spacing: 0.01em;
-  line-height: vr-strip(vr(1));
-  margin: vr(1) 0 0;
+  line-height: vr-strip(vr(1, ms(3)));
+  margin: vr(2, ms(3)) 0 vr(1, ms(3));
 }
-
 p {
   margin: 0 0 vr(1);
 }
-
 a {
   transition: background 300ms ease-out;
-  border-bottom: 1px solid $color-yellow;
+  border-bottom: 0px solid $color-yellow;
   box-shadow: inset 0 -8px 0 $color-yellow;
   color: $color-black;
   text-decoration: none;
-
   &:focus,
   &:hover {
     background-color: $color-yellow;
   }
 }
-
 .img-link {
   transition: filter 300ms ease-out;
   border: none;
   box-shadow: none;
-
   &:focus,
   &:hover {
     background-color: transparent;
@@ -142,14 +155,12 @@ a {
     filter: saturate(3);
   }
 }
-
 ul {
   // list-style-image: url(../public/egg.svg);
   list-style-position: outside;
   margin: 0;
   padding: 0;
 }
-
 li {
   background: url(../public/egg.svg) no-repeat;
   background-position: ms(2) ms(-3);
@@ -158,23 +169,18 @@ li {
   margin-bottom: vr(1);
   margin-left: ms(9) * -1;
   padding-left: ms(9);
-
   @media screen and (min-width : 1025px) {
     margin-left: ms(10) * -1;
     padding-left: ms(10);
   }
 }
-
 figure {
   margin: 0 0 vr(1);
 }
-
 figcaption {
   color: $color-blackOffset--light;
-  font-size: ms(-2);
   font-style: italic;
 }
-
 code {
   background: $color-sand;
   color: $color-red;
@@ -182,33 +188,51 @@ code {
   font-size: ms(-1);
   line-height: vr-strip(vr(1));
 }
-
 hr {
   margin: vr(1) - 0.05625 0;
   opacity: 0.25;
 }
-
-.intro,
-.work {
-  position: relative;
-}
-
 .work {
   clear: both;
-  margin: vr(3) 0 vr(4);
+  // margin: 0;
+  position: relative;
+  @media screen and (min-width : 768px) {
+    // margin: vr(3) 0;
+  }
 }
-
+.work-copy {
+  margin: 0 auto;
+  max-width: vr(20);
+  padding: vr(3) vr(1, ms(3));
+  position: relative;
+  @media screen and (min-width : 768px) {
+    padding-left: vr(1);
+    padding-right: vr(1);
+  }
+}
+figure + .work-copy {
+  padding-top: vr(0);
+}
+.work-copy + figure {
+  margin-top: vr(3)*-1;
+  padding: vr(1) vr(1, ms(3)) 0;
+  @media screen and (min-width : 768px) {
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 1440px;
+   padding-left: vr(1);
+   padding-right: vr(1);
+ }
+}
 .img-full {
   width: 100%;
 }
-
 .img-floatLeft {
   float: left;
   padding-top: vr(1) *0.5;
   padding-bottom: vr(1) *0.5;
   padding-right: vr(1) *0.5;
 }
-
 .offsetImg {
   opacity: 0.9;
   position: relative;
@@ -220,16 +244,27 @@ hr {
     top: 0;
   }
 }
-
 .pig {
   bottom: 4px;
   height: vr(1, ms(1));
   opacity: 0.7;
 }
-
 .emoji {
   height: ms(0);
   vertical-align: -10%;
   width: auto;
 }
 
+//UTILITIES
+.m-topOnly {
+  margin-bottom: 0;
+}
+.m-bottomOnly {
+  margin-top: 0;
+}
+.p-topOnly {
+  padding-bottom: 0;
+}
+.p-bottomOnly {
+  padding-top: 0;
+}
