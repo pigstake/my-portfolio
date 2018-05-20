@@ -18,9 +18,18 @@ class App extends Component {
           </section>
           <figure>
             <a className='img-link' href='http://vitalcard.com' target='_blank'>
-              <img className='img-full' src='portfolio/vital-devices.png' alt='VITAL landing page displayed in multiple devices'/>
+              <img className='img-full' src='portfolio/vital-screenshot--wide.png' alt='VITAL landing page'/>
             </a>
           </figure>
+          <section className='work-copy'>
+            <h3>Key design decisions</h3>
+            <p>Coming soon</p>
+            <figure>
+              <a className='img-link' href='http://vitalcard.com' target='_blank'>
+                <img className='img-full' src='portfolio/vital-screenshot--twoWidths.png' alt='VITAL landing page displayed in multiple devices'/>
+              </a>
+            </figure>
+          </section>
         </article>
         <article className='work'>
           <section className='work-copy'>
@@ -29,12 +38,17 @@ class App extends Component {
           </section>
           <figure>
             <a className='img-link' href='http://dotvoterapp.com' target='_blank'>
-              <img className='img-full' src='portfolio/dotvoter-devices@1600.png' alt='Dotvoter displayed in multiple devices'/>
+              <img className='img-full' src='portfolio/dotvoter-screenshot--wide.png' alt='Dotvoter home'/>
             </a>
           </figure>
           <section className='work-copy'>
             <h3>Surprising research finding</h3>
             <p>Nine out of ten teams always use private voting and six out of ten teams always use private idea creation. Groupthink from public voting was not an initial pain point Dotvoter solved. This user need emerged after launch through user interviews.</p>
+            <figure>
+              <a className='img-link' href='http://dotvoterapp.com' target='_blank'>
+                <img className='img-full' src='portfolio/dotvoter-screenshot--twoWidths.png' alt='Dotvoter displayed in multiple devices'/>
+              </a>
+            </figure>
             <h3>The impact I made</h3>
             <p>Dotvoter transformed Philosophie culture. The CEO uses it during company-wide meetings. Product teams use it with clients during retros. In two years and without any marketing effort, 6300 people have cast over 16,000 votes on more than 15,000 ideas.</p>
             <figure>
@@ -53,7 +67,7 @@ class App extends Component {
         </section>
         <figure>
           <a className='img-link' href='http://photos.app.goo.gl/ZhBl9yCMAExw48XK2' target='_blank'>
-            <img className='img-full' src='portfolio/badger-sketch.png' alt='Designs in Sketch'/>
+            <img className='img-full' src='portfolio/badger-screenshot.png' alt='Badger app'/>
           </a>
         </figure>
         <section className='work-copy'>
@@ -74,7 +88,7 @@ class App extends Component {
         </section>
         <figure>
           <a className='img-link' href='http://photos.google.com/album/AF1QipOED9mNSxvAzfEfEpCkp2CmO34fzkfRw8AHTHh2' target='_blank'>
-            <img className='img-full' src='portfolio/fso-sketch.png' alt='Two mocks in Sketch'/>
+            <img className='img-full' src='portfolio/fso-screenshot.png' alt='FSO app'/>
           </a>
         </figure>
         <section className='work-copy'>
@@ -90,18 +104,24 @@ class App extends Component {
         <section className='work-copy'>
           <h2>Baker’s Pizza</h2>
           <p>I worked directly with a New York City pizza restaurant owner as product and design lead. He wanted to grow online orders and move away from third-party solutions. I helped him explore opportunities in a Lean way, launching experiments and discovering unknown opportunities for his customers. We identified a few solutions that should convert Grubhub and Seamless customers.</p>
+          </section>
           <figure>
             <a className='img-link' href='http://photos.app.goo.gl/E0qiUXvqx7Zej9zT2' target='_blank'>
-              <img className='img-full' src='portfolio/bakers-sketch.png' alt='Designs in Sketch'/>
+              <img className='img-full' src='portfolio/bakers-screenshot--home.png' alt='Baker's Pizza/>
             </a>
-            <a className='img-link' href='http://photos.app.goo.gl/E0qiUXvqx7Zej9zT2' target='_blank'>
-              <img className='img-full' src='portfolio/bakers-goals.jpg' alt='Sticky notes and sketching'/>
-            </a>
-            <figcaption>Top: mockups in Sketch ready for an Invision prototype. Bottom: Baker’s Pizza founder and I in a design studio defining our target customers and figuring out our first experiment</figcaption>
           </figure>
-          <h3>The impact I made</h3>
-          <p>This is not a software startup; it’s a pizza restaurant. <a href='http://techcrunch.com/2016/11/29/every-company-is-a-technology-company-but-most-dont-behave-like-one/'>All companies might be software companies</a> in the future. I helped the founder realize that — teaching and working alongside him with design thinking, agile best practices, and some favorite tools like Slack, Invision and Trello. You can see the two of us in the middle of a design studio in the above photo.</p>
-          <p>For more photos of my process and output for Baker’s Pizza: <a href='http://photos.app.goo.gl/E0qiUXvqx7Zej9zT2' target='_blank'>Flip through project photos</a></p>
+          <section className='work-copy'>
+            <h3>Key design decisions</h3>
+            <p>coming soon</p>
+            <h3>The impact I made</h3>
+            <p>This is not a software startup; it’s a pizza restaurant. <a href='http://techcrunch.com/2016/11/29/every-company-is-a-technology-company-but-most-dont-behave-like-one/'>All companies might be software companies</a> in the future. I helped the founder realize that — teaching and working alongside him with design thinking, agile best practices, and some favorite tools like Slack, Invision and Trello. You can see the two of us in the middle of a design studio in the above photo.</p>
+            <figure>
+              <a className='img-link' href='http://photos.app.goo.gl/E0qiUXvqx7Zej9zT2' target='_blank'>
+                <img className='img-full' src='portfolio/bakers-goals.jpg' alt='Sticky notes and sketching'/>
+              </a>
+              <figcaption>Top: mockups in Sketch ready for an Invision prototype. Bottom: Baker’s Pizza founder and I in a design studio defining our target customers and figuring out our first experiment</figcaption>
+            </figure>
+            <p>For more photos of my process and output for Baker’s Pizza: <a href='http://photos.app.goo.gl/E0qiUXvqx7Zej9zT2' target='_blank'>Flip through project photos</a></p>
         </section>
         <section className='work-copy'>
           <h2>Other work</h2>
