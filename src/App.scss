@@ -84,7 +84,7 @@ h1 {
   color: $color-blackOffset--light;
   display: block;
   font-size: ms(0);
-  letter-spacing: ms(-21);
+  letter-spacing: 0.02em;
   padding-top: vr(2, ms(0));
   right: 0;
   text-align: right;
@@ -93,8 +93,7 @@ h1 {
   }
 }
 h2,
-h3,
-h4 {
+h3 {
  font-weight: 700;
 }
 h2,
@@ -103,25 +102,19 @@ p {
   margin-top: 0;
 }
 h2 {
-  border-left: solid vr(1000) $color-black;
-  font-size: ms(6);
+  font-size: ms(9);
   letter-spacing: ms(-34) *-1;
-  line-height: 3px;
-  margin-top: -3px;
-  margin-bottom: vr(3, ms(6));
-  margin-left: vr(1000) *-1 - vr(1, ms(18));
-  padding-left: vr(1, ms(18));
+  line-height: vr-strip(vr(2, ms(9)));
+  margin-bottom: vr(2, ms(9));
   position: relative;
   @media screen and (min-width : 480px) {
-    font-size: ms(8);
-    margin-bottom: vr(3, ms(8));
+    font-size: ms(10);
+    margin-bottom: vr(3, ms(10));
   }
   @media screen and (min-width : 768px) {
-    font-size: ms(9);
+    font-size: ms(11);
     letter-spacing: -1px;
-    margin-bottom: vr(3, ms(9));
-    margin-left: vr(1000) *-1 - vr(1, ms(9));
-    padding-left: vr(1, ms(9));
+    margin-bottom: vr(3, ms(11));
   }
 }
 h3 {
@@ -129,6 +122,20 @@ h3 {
   letter-spacing: 0.01em;
   line-height: vr-strip(vr(1, ms(3)));
   margin: vr(2, ms(3)) 0 vr(1, ms(3));
+}
+h4 {
+  color: $color-blackOffset--light;
+  font-size: ms(3);
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  line-height: vr-strip(vr(1, ms(3)));
+  margin: vr(2, ms(3)) 0 vr(1, ms(3));
+  @media screen and (min-width : 480px) {
+    font-size: ms(4);
+    line-height: vr-strip(vr(1, ms(4)));
+    margin: vr(2, ms(4)) 0 vr(1, ms(4));
+  }
+  @media screen and (min-width : 768px) {
 }
 p {
   margin: 0 0 vr(1);
@@ -195,7 +202,7 @@ hr {
 }
 .work {
   clear: both;
-  // margin: 0;
+  padding: vr(3) vr(1, ms(3));
   position: relative;
   @media screen and (min-width : 768px) {
     // margin: vr(3) 0;
@@ -204,19 +211,14 @@ hr {
 .work-copy {
   margin: 0 auto;
   max-width: vr(20);
-  padding: vr(3) vr(1, ms(3));
   position: relative;
   @media screen and (min-width : 768px) {
     padding-left: vr(1);
     padding-right: vr(1);
   }
 }
-figure + .work-copy {
-  padding-top: vr(0);
-}
-.work-copy + figure {
-  margin-top: vr(3)*-1;
-  padding: vr(1) vr(1, ms(3)) 0;
+.fullFigure {
+  padding-top: vr(1);
   @media screen and (min-width : 768px) {
    margin-left: auto;
    margin-right: auto;
