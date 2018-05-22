@@ -83,8 +83,6 @@ h1 {
 .subtitle {
   color: $color-blackOffset--light;
   display: block;
-  font-size: ms(0);
-  letter-spacing: 0.02em;
   padding-top: vr(2, ms(0));
   right: 0;
   text-align: right;
@@ -135,7 +133,6 @@ h4 {
     line-height: vr-strip(vr(1, ms(4)));
     margin: vr(2, ms(4)) 0 vr(1, ms(4));
   }
-  @media screen and (min-width : 768px) {
 }
 p {
   margin: 0 0 vr(1);
