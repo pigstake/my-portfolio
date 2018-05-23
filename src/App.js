@@ -14,7 +14,7 @@ class App extends Component {
         <article className='work'>
           <section className='work-copy'>
             <h2>VITAL Card</h2>
-            <h4>Mixing credit cards, gamification, and multi-level marketing into an experience</h4>
+            <h4>A credit card that cares about your financial health and pays you to share</h4>
             <p>I currently lead design at VITAL, a credit card startup. More coming soon — behind the scenes, design decisions, and the impact I make week after week.</p>
           </section>
           <figure className='fullFigure'>
@@ -68,7 +68,7 @@ class App extends Component {
         <article className='work'>
           <section className='work-copy'>
             <h2>Badger</h2>
-            <h4>Data visualization to help field workers</h4>
+            <h4>Visualizing work data to help field workers work smarter and happier</h4>
             <p>Badger is a performance feedback mobile app. How can personal data help employees? Their teams? Their managers? I was design lead on this product at Philosophie. My team was five strong — three engineers, myself and a product manager.</p>
           </section>
           <figure>
@@ -92,7 +92,7 @@ class App extends Component {
         <article className='work'>
           <section className='work-copy'>
             <h2>Field Service OS</h2>
-            <h4>AI, chatbots, and org change to help a field service team and their customers</h4>
+            <h4>A friendly robot and new way of working to connect a field service team</h4>
             <p>I was design lead on this project at Philosophie. My product team was six strong — one strategist, two designers, two engineers and a program manager.</p>
           </section>
           <figure>
