@@ -167,6 +167,7 @@ class App extends Component {
         <article className='work'>
           <section className='work-copy'>
             <h2>About me</h2>
+            <h4>Designer, board-game enthusiast, &amp; amateur bread baker in Brooklyn</h4>
             <p>Hello! 👋 I'm a problem finder, definer, prioritizer, and solver — a Designer. I moderate warm and hospitable research sessions, facilitate lively creative collaborations, help my teams understand users, build design systems, and test prototypes. My specialty is user-centered design of digital things, with more focus on product than marketing.</p>
             <p>Over the past 8 years, I've been fortunate to work with wonderful in-house, agency, and consulting teams, solving problems for clients all over the world.</p>
             <p>Want to chat about Design? Next steps of your idea? Second-hand or vintage menswear? Send me a message on <a href='https://www.linkedin.com/in/jamisoncaloras/'>LinkedIn</a> or <a href='https://twitter.com/pigstake'>Twitter</a>. Ask me for a photo of my bread if you want to make an impression. 😉🍞</p>
