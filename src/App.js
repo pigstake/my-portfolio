@@ -82,7 +82,7 @@ class App extends Component {
               <a className='img-link' href='http://photos.app.goo.gl/ZhBl9yCMAExw48XK2'>
                 <img className='img-full' src='portfolio/badger-research.jpg' alt='Sticky notes with research notes organized'/>
               </a>
-              <figcaption>Top: screens for the latest iteration in Sketch ready for Invision and engineers. Bottom: organized notes from one cohort of user interviews.</figcaption>
+              <figcaption>Organized notes from one cohort of user interviews.</figcaption>
             </figure>
             <h3>The impact I made</h3>
             <p>Badger users outperform their peers by 17% in target performance metrics.</p>
@@ -106,7 +106,7 @@ class App extends Component {
               <a className='img-link' href='http://photos.google.com/album/AF1QipOED9mNSxvAzfEfEpCkp2CmO34fzkfRw8AHTHh2'>
                 <img className='img-full' src='portfolio/fso-taskflow.jpg' alt='Taskflow sketched'/>
               </a>
-              <figcaption>Top: our real-time project management, customer support app with AI chatbot. Bottom: quick and dirty task flow to figure out dispatcher behavioral needs</figcaption>
+              <figcaption>Quick and dirty task flow to figure out dispatcher behavioral needs</figcaption>
             </figure>
             <p>For more images of my process and output: <a href='http://photos.google.com/album/AF1QipOED9mNSxvAzfEfEpCkp2CmO34fzkfRw8AHTHh2'>See more behind the scenes and screens</a></p>
           </section>
@@ -129,7 +129,7 @@ class App extends Component {
                 <a className='img-link' href='http://photos.app.goo.gl/E0qiUXvqx7Zej9zT2'>
                   <img className='img-full' src='portfolio/bakers-goals.jpg' alt='Sticky notes and sketching'/>
                 </a>
-                <figcaption>Top: mockups in Sketch ready for an Invision prototype. Bottom: Baker’s Pizza founder and I in a design studio defining our target customers and figuring out our first experiment</figcaption>
+                <figcaption>Baker’s Pizza founder and I in a design studio defining our target customers and figuring out our first experiment</figcaption>
               </figure>
               <p>For more photos of my process and output for Baker’s Pizza: <a href='http://photos.app.goo.gl/E0qiUXvqx7Zej9zT2'>Flip through project photos</a></p>
           </section>
