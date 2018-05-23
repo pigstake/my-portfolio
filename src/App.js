@@ -68,7 +68,7 @@ class App extends Component {
         <article className='work'>
           <section className='work-copy'>
             <h2>Badger</h2>
-            <h4>Visualizing work data to help field workers work smarter and happier</h4>
+            <h4>Visualizing work data to help field teams work smarter and happier</h4>
             <p>Badger is a performance feedback mobile app. How can personal data help employees? Their teams? Their managers? I was design lead on this product at Philosophie. My team was five strong — three engineers, myself and a product manager.</p>
           </section>
           <figure>
