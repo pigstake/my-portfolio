@@ -18,7 +18,7 @@ class App extends Component {
             <p>I currently lead design at VITAL, a credit card startup. More coming soon — behind the scenes, design decisions, and the impact I make week after week.</p>
           </section>
           <figure className='fullFigure'>
-            <a className='img-link' href='http://vitalcard.com' target='_blank'>
+            <a className='img-link' href='http://vitalcard.com'>
               <img className='img-full' src='portfolio/vital-screenshot--wide.png' alt='VITAL landing page'/>
             </a>
           </figure>
@@ -27,7 +27,7 @@ class App extends Component {
             <p>coming soon</p>
           </section>
           <figure className='fullFigure'>
-            <a className='img-link' href='http://vitalcard.com' target='_blank'>
+            <a className='img-link' href='http://vitalcard.com'>
               <img className='img-full' src='portfolio/vital-screenshot--twoWidths.png' alt='VITAL landing page displayed in multiple devices'/>
             </a>
           </figure>
@@ -39,7 +39,7 @@ class App extends Component {
             <p>Dotvoter is the fastest way for remote teams to surface and prioritize ideas. It’s an internal product I started at Philosophie. I acted as product manager, lead designer, and contributed all of the styling code. After launch I led small teams in uncovering user needs, prioritizing problems to solve, and delivering product.</p>
           </section>
           <figure className='fullFigure'>
-            <a className='img-link' href='http://dotvoterapp.com' target='_blank'>
+            <a className='img-link' href='http://dotvoterapp.com'>
               <img className='img-full' src='portfolio/dotvoter-screenshot--wide.png' alt='Dotvoter home'/>
             </a>
           </figure>
@@ -48,7 +48,7 @@ class App extends Component {
             <p>Nine out of ten teams always use private voting and six out of ten teams always use private idea creation. Groupthink from public voting was not an initial pain point Dotvoter solved. This user need emerged after launch through user interviews.</p>
           </section>
           <figure className='fullFigure'>
-            <a className='img-link' href='http://dotvoterapp.com' target='_blank'>
+            <a className='img-link' href='http://dotvoterapp.com'>
               <img className='img-full' src='portfolio/dotvoter-screenshot--twoWidths.png' alt='Dotvoter displayed in multiple devices'/>
             </a>
           </figure>
@@ -56,13 +56,13 @@ class App extends Component {
             <h3>The impact I made</h3>
             <p>Dotvoter transformed Philosophie culture. The CEO uses it during company-wide meetings. Product teams use it with clients during retros. In two years and without any marketing effort, 6300 people have cast over 16,000 votes on more than 15,000 ideas.</p>
             <figure>
-              <a className='img-link' href='http://photos.app.goo.gl/n0ehciw4TowBNx6t2' target='_blank'>
+              <a className='img-link' href='http://photos.app.goo.gl/n0ehciw4TowBNx6t2'>
                 <img className='img-full' src='portfolio/dotvoter-whiteboard.jpg' alt='Sketching on a whiteboard'/>
               </a>
               <figcaption>sketched flows exploring how a user might traverse states in the app</figcaption>
             </figure>
-            <p><em>Try it out!</em> Check out the live app and <a href='http://dotvoterapp.com' target='_blank'>decide on something @dotvoterapp.com</a></p>
-            <p><a href='http://photos.app.goo.gl/n0ehciw4TowBNx6t2' target='_blank'>See more portfolio photos</a></p>
+            <p><em>Try it out!</em> Check out the live app and <a href='http://dotvoterapp.com'>decide on something @dotvoterapp.com</a></p>
+            <p><a href='http://photos.app.goo.gl/n0ehciw4TowBNx6t2'>See more portfolio photos</a></p>
           </section>
         </article>
         <article className='work'>
@@ -72,21 +72,21 @@ class App extends Component {
             <p>Badger is a performance feedback mobile app. How can personal data help employees? Their teams? Their managers? I was design lead on this product at Philosophie. My team was five strong — three engineers, myself and a product manager.</p>
           </section>
           <figure>
-            <a className='img-link' href='http://photos.app.goo.gl/ZhBl9yCMAExw48XK2' target='_blank'>
+            <a className='img-link' href='http://photos.app.goo.gl/ZhBl9yCMAExw48XK2'>
               <img className='img-full' src='portfolio/badger-screenshot.png' alt='Badger app'/>
             </a>
           </figure>
           <section className='work-copy'>
             <p>To kick us off, I ran a design sprint. For six months, I facilitated creative studios, led agile-style meetings, ran user research efforts, built prototypes, iterated and shipped product.</p>
             <figure>
-              <a className='img-link' href='http://photos.app.goo.gl/ZhBl9yCMAExw48XK2' target='_blank'>
+              <a className='img-link' href='http://photos.app.goo.gl/ZhBl9yCMAExw48XK2'>
                 <img className='img-full' src='portfolio/badger-research.jpg' alt='Sticky notes with research notes organized'/>
               </a>
               <figcaption>Top: screens for the latest iteration in Sketch ready for Invision and engineers. Bottom: organized notes from one cohort of user interviews.</figcaption>
             </figure>
             <h3>The impact I made</h3>
             <p>Badger users outperform their peers by 17% in target performance metrics.</p>
-            <p>For more images of my process and output: <a href='http://photos.app.goo.gl/ZhBl9yCMAExw48XK2' target='_blank'>Dig into the work</a></p>
+            <p>For more images of my process and output: <a href='http://photos.app.goo.gl/ZhBl9yCMAExw48XK2'>Dig into the work</a></p>
           </section>
         </article>
         <article className='work'>
@@ -96,19 +96,19 @@ class App extends Component {
             <p>I was design lead on this project at Philosophie. My product team was six strong — one strategist, two designers, two engineers and a program manager.</p>
           </section>
           <figure>
-            <a className='img-link' href='http://photos.google.com/album/AF1QipOED9mNSxvAzfEfEpCkp2CmO34fzkfRw8AHTHh2' target='_blank'>
+            <a className='img-link' href='http://photos.google.com/album/AF1QipOED9mNSxvAzfEfEpCkp2CmO34fzkfRw8AHTHh2'>
               <img className='img-full' src='portfolio/fso-screenshot.png' alt='FSO app'/>
             </a>
           </figure>
           <section className='work-copy'>
             <p>I led my team through research and cooperative design workshops with dispatchers and field techs. We discovered an opportunity for field service teams at the intersection of machine learning, chatbots and business process transformation. For nine months, I ran user research, built prototypes, and wrote front-end code for the production app.</p>
             <figure>
-              <a className='img-link' href='http://photos.google.com/album/AF1QipOED9mNSxvAzfEfEpCkp2CmO34fzkfRw8AHTHh2' target='_blank'>
+              <a className='img-link' href='http://photos.google.com/album/AF1QipOED9mNSxvAzfEfEpCkp2CmO34fzkfRw8AHTHh2'>
                 <img className='img-full' src='portfolio/fso-taskflow.jpg' alt='Taskflow sketched'/>
               </a>
               <figcaption>Top: our real-time project management, customer support app with AI chatbot. Bottom: quick and dirty task flow to figure out dispatcher behavioral needs</figcaption>
             </figure>
-            <p>For more images of my process and output: <a href='http://photos.google.com/album/AF1QipOED9mNSxvAzfEfEpCkp2CmO34fzkfRw8AHTHh2' target='_blank'>See more behind the scenes and screens</a></p>
+            <p>For more images of my process and output: <a href='http://photos.google.com/album/AF1QipOED9mNSxvAzfEfEpCkp2CmO34fzkfRw8AHTHh2'>See more behind the scenes and screens</a></p>
           </section>
         </article>
         <article className='work'>
@@ -118,7 +118,7 @@ class App extends Component {
             <p>I worked directly with a New York City pizza restaurant owner as product and design lead. He wanted to grow online orders and move away from third-party solutions. I helped him explore opportunities in a Lean way, launching experiments and discovering unknown opportunities for his customers. We identified a few solutions that should convert Grubhub and Seamless customers.</p>
             </section>
             <figure>
-              <a className='img-link' href='http://photos.app.goo.gl/E0qiUXvqx7Zej9zT2' target='_blank'>
+              <a className='img-link' href='http://photos.app.goo.gl/E0qiUXvqx7Zej9zT2'>
                 <img className='img-full' src='portfolio/bakers-screenshot--home.png' alt='Baker's Pizza/>
               </a>
             </figure>
@@ -126,12 +126,12 @@ class App extends Component {
               <h3>The impact I made</h3>
               <p>This is not a software startup; it’s a pizza restaurant. <a href='http://techcrunch.com/2016/11/29/every-company-is-a-technology-company-but-most-dont-behave-like-one/'>All companies might be software companies</a> in the future. I helped the founder realize that — teaching and working alongside him with design thinking, agile best practices, and some favorite tools like Slack, Invision and Trello. You can see the two of us in the middle of a design studio in the above photo.</p>
               <figure>
-                <a className='img-link' href='http://photos.app.goo.gl/E0qiUXvqx7Zej9zT2' target='_blank'>
+                <a className='img-link' href='http://photos.app.goo.gl/E0qiUXvqx7Zej9zT2'>
                   <img className='img-full' src='portfolio/bakers-goals.jpg' alt='Sticky notes and sketching'/>
                 </a>
                 <figcaption>Top: mockups in Sketch ready for an Invision prototype. Bottom: Baker’s Pizza founder and I in a design studio defining our target customers and figuring out our first experiment</figcaption>
               </figure>
-              <p>For more photos of my process and output for Baker’s Pizza: <a href='http://photos.app.goo.gl/E0qiUXvqx7Zej9zT2' target='_blank'>Flip through project photos</a></p>
+              <p>For more photos of my process and output for Baker’s Pizza: <a href='http://photos.app.goo.gl/E0qiUXvqx7Zej9zT2'>Flip through project photos</a></p>
           </section>
         </article>
         <article className='work'>
@@ -162,6 +162,15 @@ class App extends Component {
               <a href='http://www.streamline-alliance.com/'>streamline-alliance.com</a>
               <br /><em>UI design & front-end code</em>
             </p>
+          </section>
+        </article>
+        <article className='work'>
+          <section className='work-copy'>
+            <h2>About me</h2>
+            <p>Hello! 👋 I'm a problem finder, definer, prioritizer, and solver — a Designer. I moderate warm and hospitable research sessions, facilitate lively creative collaborations, help my teams understand users, build design systems, and test prototypes. My specialty is user-centered design of digital things, with more focus on product than marketing.</p>
+            <p>Over the past 8 years, I've been fortunate to work with wonderful in-house, agency, and consulting teams, solving problems for clients all over the world.</p>
+            <p>Want to chat about Design? Next steps of your idea? Second-hand or vintage menswear? Send me a message on <a href='https://www.linkedin.com/in/jamisoncaloras/'>LinkedIn</a> or <a href='https://twitter.com/pigstake'>Twitter</a>. Ask me for a photo of my bread if you want to make an impression. 😉🍞</p>
+            <p>Read some of my <a href='https://medium.com/@pigstake'>work-related blog raving on Medium</a>.</p>
           </section>
         </article>
       </main>
