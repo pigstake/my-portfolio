@@ -59,7 +59,7 @@ class App extends Component {
               <a className='img-link' href='http://photos.app.goo.gl/n0ehciw4TowBNx6t2'>
                 <img className='img-full' src='portfolio/dotvoter-whiteboard.jpg' alt='Sketching on a whiteboard'/>
               </a>
-              <figcaption>sketched flows exploring how a user might traverse states in the app</figcaption>
+              <figcaption>Sketched flows exploring how a user might traverse states in the app</figcaption>
             </figure>
             <p><em>Try it out!</em> Check out the live app and <a href='http://dotvoterapp.com'>decide on something @dotvoterapp.com</a></p>
             <p><a href='http://photos.app.goo.gl/n0ehciw4TowBNx6t2'>See more portfolio photos</a></p>
@@ -149,7 +149,7 @@ class App extends Component {
             </p>
             <h3 className='m-topOnly'>Greenpeace</h3>
             <p>
-              <a href='http://www.greenpeace.org/usa/blog/'>The Environmentalist Blog</a>
+              The Environmentalist Blog
               <br /><em>UI design, front-end code, information architecture</em>
             </p>
             <h3 className='m-topOnly'>Washington Interactive Network</h3>
