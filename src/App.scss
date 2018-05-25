@@ -40,22 +40,30 @@ main {
 }
 .hero {
   padding: vr(3) vr(1, ms(3));
+  @media screen and (min-width : 480px) {
+    display: flex;
+    flex-direction: column;
+  }
   @media screen and (min-width : 768px) {
     padding-top: vr(5);
     padding-bottom: vr(5);
   }
   @media screen and (min-width : 960px) {
-    padding-left: vr(1);
-    padding-right: vr(1);
+    padding-left: vr(3);
+    padding-right: vr(3);
+  }
+  @media screen and (min-width : 1280px) {
+    padding-left: vr(5);
+    padding-right: vr(5);
   }
 }
 h1 {
   font-family: $serif-display;
-  font-size: ms(7);
+  font-size: ms(8);
   font-style: italic;
   font-weight: 900;
   letter-spacing: -0.01em;
-  line-height: vr-strip(vr(2, ms(7)));
+  line-height: vr-strip(vr(2, ms(8)));
   margin: 0;
   transform: rotate(-11deg);
   @media screen and (min-width : 375px) {
@@ -82,12 +90,12 @@ h1 {
 }
 .subtitle {
   color: $color-blackOffset--light;
-  display: block;
-  padding-top: vr(2, ms(0));
-  right: 0;
-  text-align: right;
-  @media screen and (min-width : 761px) {
-    // margin-left: vr(1, ms(0)) *-1;
+  padding-top: vr(3);
+  @media screen and (min-width : 480px) {
+    align-self: flex-end;
+    font-size: ms(0);
+    text-align: center;
+    width: vr(12);
   }
 }
 h2,
@@ -193,8 +201,11 @@ code {
   font-size: ms(-1);
   line-height: vr-strip(vr(1));
 }
+strong {
+  font-weight: 700;
+}
 hr {
-  margin: vr(1) - 0.05625 0;
+  margin: vr(13) 0;
   opacity: 0.25;
 }
 .work {
