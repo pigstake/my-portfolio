@@ -8,7 +8,7 @@ class App extends Component {
       <main>
         <header className='hero'>
           <h1>Hi, I’m <br />
-          Jamie Caloras</h1>
+          <a href='#aboutMe'>Jamie Caloras</a></h1>
           <p className='subtitle'>Welcome! Below you’ll find a selection of my work experience in <strong>UX, design, research, product strategy, and front-end code</strong>. &#x1F596;</p>
         </header>
         <article className='work'>
@@ -30,7 +30,6 @@ class App extends Component {
           <section className='work-copy'>
             <h3>Key design decisions</h3>
             <p>coming soon</p>
-            <p>For more photos of my process and output: <a href='http://photos.app.goo.gl/E0qiUXvqx7Zej9zT2'>More photos, no fee</a></p>
             <p><a href='http://vitalcard.com'>Visit the site</a></p>
           </section>
         </article>
@@ -38,27 +37,32 @@ class App extends Component {
           <section className='work-copy'>
             <h2>Dotvoter</h2>
             <h4>Democratizing decisions for remote teams and saving sticky notes</h4>
-            <p>Dotvoter is the fastest way for remote teams to surface and prioritize ideas. It’s an internal product I started at Philosophie. I acted as product manager, lead designer, and contributed all of the styling code. After launch I led small teams in uncovering user needs, prioritizing problems to solve, and delivering product.</p>
+            <p>Tired of crowding around a wall with your team to place dot votes? Ever need to include remote teammates? Product consulting teams at Philosophie had problems like this almost every day. I designed Dotvoter to solve those problems.</p>
           </section>
           <figure className='fullFigure'>
             <img className='img-full' src='portfolio/dotvoter-screenshot--wide.png' alt='Dotvoter home'/>
           </figure>
           <section className='work-copy'>
-            <h3>Surprising research finding</h3>
-            <p>Nine out of ten teams always use private voting and six out of ten teams always use private idea creation. Groupthink from public voting was not an initial pain point Dotvoter solved. This user need emerged after launch through user interviews.</p>
-          </section>
-          <figure className='fullFigure'>
-            <img className='img-full' src='portfolio/dotvoter-screenshot--twoWidths.png' alt='Dotvoter displayed in multiple devices'/>
-          </figure>
-          <section className='work-copy'>
-            <h3>The impact I made</h3>
-            <p>Dotvoter transformed Philosophie culture. The CEO uses it during company-wide meetings. Product teams use it with clients during retros. In two years and without any marketing effort, 6300 people have cast over 16,000 votes on more than 15,000 ideas.</p>
+            <h3>Surprising research insight</h3>
+            <p>Nine out of ten teams always use private voting and six out of ten teams always use private idea generation. Groupthink from public voting was not an initial pain point Dotvoter solved. Private idea generation is typical in physical, sticky-note dot voting. So is public voting; everyone crowds around the sticky notes and places dot stickers. This often proves physically awkward in conference rooms, shuffling around chairs and waiting for other people to move. It also allows voters to game votes and be influenced by groupthink, which is one reason why teams use Dotvoter.</p>
             <figure>
               <a className='img-link' href='http://photos.app.goo.gl/n0ehciw4TowBNx6t2'>
                 <img className='img-full' src='portfolio/dotvoter-whiteboard.jpg' alt='Sketching on a whiteboard'/>
               </a>
-              <figcaption>Sketched flows exploring how a user might traverse states in the app</figcaption>
+              <figcaption>A major challenge was to understand and model the states of dot voting in the physical experience and translating that to a digital experience</figcaption>
             </figure>
+          </section>
+          <section className='work-copy'>
+            <h3>Key design decisions</h3>
+            <p>Dotvoter is often used in meetings and workshops. People bring various devices to these events and there’s often a big screen in the room. So, Dotvoter is accessible on phones, big screens, and everything between. Clickable elements are finger-friendly and fonts are readable from a big, distant screen.</p>
+            <p>The color palette — the original sticky note yellow, bright pink and teal — is meant to evoke the bright, playful colors of many sticky notes. The typeface is Omnes Pro, which provides a friendly informality and, on the cards, suggests handwriting.</p>
+          </section>
+          <figure className='fullFigure'>
+            <img className='img-full' src='portfolio/dotvoter-screenshot--twoWidths.png' alt='Dotvoter boards with votes'/>
+          </figure>
+          <section className='work-copy'>
+            <h3>The impact I made</h3>
+            <p>Dotvoter transformed Philosophie culture. The CEO uses it during company-wide meetings. Product teams use it with clients during retros. 6,900 people have cast over 22,300 votes on more than 21,000 ideas in two years without any paid marketing effort.</p>
             <p><em>Try it out!</em> Check out the live app and <a href='http://dotvoterapp.com'>decide on something @dotvoterapp.com</a></p>
             <p><a href='http://photos.app.goo.gl/n0ehciw4TowBNx6t2'>See more portfolio photos</a></p>
           </section>
@@ -66,22 +70,24 @@ class App extends Component {
         <article className='work'>
           <section className='work-copy'>
             <h2>Badger</h2>
-            <h4>Visualizing work data to help field teams work smarter and happier</h4>
-            <p>Badger is a performance feedback mobile app. How can personal data help employees? Their teams? Their managers? I was design lead on this product at Philosophie. My team was five strong — three engineers, myself and a product manager.</p>
+            <h4>Visualizing work data to help distributed sales teams work smarter and happier</h4>
+            <p>Badger is a performance feedback mobile app. How can personal data help remote salespeople? Their teams? Their managers? And how could my team alleviate the mistrust in how managers could use data? I led design on this product at Philosophie. My team was five strong — three engineers, myself, and a product manager.</p>
           </section>
           <figure className='fullFigure'>
             <img className='img-full' src='portfolio/badger-screenshot.png' alt='Badger app'/>
           </figure>
           <section className='work-copy'>
-            <p>To kick us off, I ran a design sprint. For six months, I facilitated creative studios, led agile-style meetings, ran user research efforts, built prototypes, iterated and shipped product.</p>
+            <h3>Key design decisions</h3>
+            <p>The sales team already received weekly reports, so I tailored the Badger experience to fit into this existing behavior. Graphs, performance summaries, and a notification schedule were designed around weeks.</p>
+            <p>Bright colors and slightly informal typography provide a memorable experience among the usual apps our users have at work. The app uses Libre Franklin, which is versatile enough to make big numbers and small fonts look good.</p>
             <figure>
               <a className='img-link' href='http://photos.app.goo.gl/ZhBl9yCMAExw48XK2'>
                 <img className='img-full' src='portfolio/badger-research.jpg' alt='Sticky notes with research notes organized'/>
               </a>
-              <figcaption>Organized notes from one cohort of user interviews.</figcaption>
+              <figcaption>I moderated user interviews while my product manager and two engineers noted observations. We organized our notes together to share insights.</figcaption>
             </figure>
             <h3>The impact I made</h3>
-            <p>Badger users outperform their peers by 17% in target performance metrics.</p>
+            <p>My team learned early on through user interviews that people had trust issues exposing their performance data. Week after week, changes in copy and color helped alleviate this. Over six months, Badger users at a cable company outperformed their peers by 17%.</p>
             <p>For more images of my process and output: <a href='http://photos.app.goo.gl/ZhBl9yCMAExw48XK2'>Dig into the work</a></p>
           </section>
         </article>
@@ -89,18 +95,21 @@ class App extends Component {
           <section className='work-copy'>
             <h2>Field Service OS</h2>
             <h4>A friendly robot and new way of working to connect a field service team</h4>
-            <p>I was design lead on this project at Philosophie. My product team was six strong — one strategist, two designers, two engineers and a program manager.</p>
+            <p>How might a band of techies help a 70-year old service company better serve their customers? My team was six strong — one strategist, two designers, two engineers, and a program manager. I led the team through <a href='https://uxdesign.cc/organizing-ux-research-with-google-forms-and-sheets-b375411c664c'>field research</a>, cooperative design workshops, and prototype tests with dispatchers, warehouse managers, and field technicians to discover how we could help.</p>
           </section>
           <figure className='fullFigure'>
             <img className='img-full' src='portfolio/fso-screenshot.png' alt='FSO app'/>
           </figure>
           <section className='work-copy'>
-            <p>I led my team through research and cooperative design workshops with dispatchers and field techs. We discovered an opportunity for field service teams at the intersection of machine learning, chatbots and business process transformation. For nine months, I ran user research, built prototypes, and wrote front-end code for the production app.</p>
+            <h3>Key design decisions</h3>
+            <p>Dispatchers on this team have a lot of responsibilities — customer support, field tech support, schedulers, communication go-betweens, and sort of human records of project information for various teammates. These dispatchers helped us identify which of those responsibilities they’d be happy to let software handle, like scheduling and preliminary job assessments.</p>
+            <p>We chose to promote transparent and open communication across teams working on a given support ticket. Dispatchers, assigned field technicians, sales reps, warehouse managers, and customers could chat, see progress and associated data.</p>
+            <p>My client had partnered with Google on this project, which brought the constraint of Material Design. Since most of the field technicians used Android phones, Material let us ship prototypes with familiar UI faster than if we had created a new design system.</p>
             <figure>
               <a className='img-link' href='http://photos.google.com/album/AF1QipOED9mNSxvAzfEfEpCkp2CmO34fzkfRw8AHTHh2'>
-                <img className='img-full' src='portfolio/fso-taskflow.jpg' alt='Taskflow sketched'/>
+                <img className='img-full' src='portfolio/fso-sketches.png' alt='Taskflow sketched'/>
               </a>
-              <figcaption>Quick and dirty task flow to figure out dispatcher behavioral needs</figcaption>
+              <figcaption>I moderated design studios, design sprints, and research synthesis with my team. Collaborative sketching helped to communicate and plan fast together.</figcaption>
             </figure>
             <p>For more images of my process and output: <a href='http://photos.google.com/album/AF1QipOED9mNSxvAzfEfEpCkp2CmO34fzkfRw8AHTHh2'>See more behind the scenes and screens</a></p>
           </section>
@@ -158,12 +167,12 @@ class App extends Component {
             </p>
           </section>
         </article>
-        <article className='work'>
+        <article className='work' id='aboutMe'>
           <section className='work-copy'>
             <h2>About me</h2>
             <h4>Designer, board-game enthusiast, &amp; amateur bread baker in Brooklyn</h4>
             <p>Hello! 👋 I’m a problem finder, definer, prioritizer, and solver — a Designer. I moderate warm and hospitable research sessions, facilitate lively creative collaborations, help my teams understand users, build design systems, test prototypes, and ship product. My specialty is user-centered design of digital things, with more focus on product than marketing.</p>
-            <p>Over the past 8 years, I’ve been fortunate to work with wonderful in-house, agency, and consulting teams, solving problems for clients all over the world. I have particularly enjoyed the times working closely with small, diverse teams full of trust and collaborative rhythm. If you’re reading this — thank you.</p>
+            <p>Over the past eight years, I’ve been fortunate to work with wonderful in-house, agency, and consulting teams, solving problems for clients all over the world. I have particularly enjoyed the times working closely with small, diverse teams full of trust and collaborative rhythm. If you’re reading this — thank you.</p>
             <p>Want to chat about Design? Next steps of your idea? Second-hand or vintage menswear? Send me a message on <a href='https://www.linkedin.com/in/jamisoncaloras/'>LinkedIn</a> or <a href='https://twitter.com/pigstake'>Twitter</a>. Ask me for a photo of my bread if you want to make an impression. 😉🍞</p>
             <p>Read some of my <a href='https://medium.com/@pigstake'>work-related blog raving on Medium</a>.</p>
           </section>
@@ -178,6 +187,9 @@ class App extends Component {
                 <a href="https://github.com/pyrsmk/vertical-rhythmic">These mixins</a> and the writing that inspired them, on fluid typography and general web typesetting geekiness, all for your reading pleasure of course
               </li>
             </ul>
+            <figure>
+              <img src='pigSmile.svg' alt='Smiling pig'/>
+            </figure>
           </section>
         </article>
       </main>
