@@ -28,8 +28,9 @@ class App extends Component {
             <img className='img-full' src='portfolio/vital-screenshot--twoWidths.png' alt='VITAL landing page displayed in multiple devices'/>
           </figure>
           <section className='work-copy'>
-            <h3>Key design decisions</h3>
+            <h3>The impact I made</h3>
             <p>coming soon</p>
+            <p><a href='http://photos.app.goo.gl/tB0XEWOTu3P9NpKT2'>See photos and screenshots of my process</a></p>
             <p><a href='http://vitalcard.com'>Visit the site</a></p>
           </section>
         </article>
@@ -95,7 +96,7 @@ class App extends Component {
           <section className='work-copy'>
             <h2>Field Service OS</h2>
             <h4>A friendly robot and new way of working to connect a field service team</h4>
-            <p>How might a band of techies help a 70-year old service company better serve their customers? My team was six strong — one strategist, two designers, two engineers, and a program manager. I led the team through <a href='https://uxdesign.cc/organizing-ux-research-with-google-forms-and-sheets-b375411c664c'>field research</a>, cooperative design workshops, and prototype tests with dispatchers, warehouse managers, and field technicians to discover how we could help.</p>
+            <p>How might a band of techies help a 70-year old service company better serve their customers? My team was six strong — one strategist, two designers, two engineers, and a program manager. I led the team through <a href='http://uxdesign.cc/organizing-ux-research-with-google-forms-and-sheets-b375411c664c'>field research</a>, cooperative design workshops, and prototype tests with dispatchers, warehouse managers, and field technicians to discover how we could help.</p>
           </section>
           <figure className='fullFigure'>
             <img className='img-full' src='portfolio/fso-screenshot.png' alt='FSO app'/>
@@ -173,8 +174,8 @@ class App extends Component {
             <h4>Designer, board-game enthusiast, &amp; amateur bread baker in Brooklyn</h4>
             <p>Hello! 👋 I’m a problem finder, definer, prioritizer, and solver — a Designer. I moderate warm and hospitable research sessions, facilitate lively creative collaborations, help my teams understand users, build design systems, test prototypes, and ship product. My specialty is user-centered design of digital things, with more focus on product than marketing.</p>
             <p>Over the past eight years, I’ve been fortunate to work with wonderful in-house, agency, and consulting teams, solving problems for clients all over the world. I have particularly enjoyed the times working closely with small, diverse teams full of trust and collaborative rhythm. If you’re reading this — thank you.</p>
-            <p>Want to chat about Design? Next steps of your idea? Second-hand or vintage menswear? Send me a message on <a href='https://www.linkedin.com/in/jamisoncaloras/'>LinkedIn</a> or <a href='https://twitter.com/pigstake'>Twitter</a>. Ask me for a photo of my bread if you want to make an impression. 😉🍞</p>
-            <p>Read some of my <a href='https://medium.com/@pigstake'>work-related blog raving on Medium</a>.</p>
+            <p>Want to chat about Design? Next steps of your idea? Second-hand or vintage menswear? Send me a message on <a href='http://www.linkedin.com/in/jamisoncaloras/'>LinkedIn</a> or <a href='http://twitter.com/pigstake'>Twitter</a>. Ask me for a photo of my bread if you want to make an impression. 😉🍞</p>
+            <p>Read some of my <a href='http://medium.com/@pigstake'>work-related blog raving on Medium</a>.</p>
           </section>
           <hr />
           <section className='work-copy'>
@@ -184,7 +185,7 @@ class App extends Component {
                 <a href="http://github.com/facebookincubator/create-react-app">Create React App</a>, which I use as a static site generator to improve my Javascript skills and have informed opinions about styles in React so my engineer teammates grumble less
               </li>
               <li>
-                <a href="https://github.com/pyrsmk/vertical-rhythmic">These mixins</a> and the writing that inspired them, on fluid typography and general web typesetting geekiness, all for your reading pleasure of course
+                <a href="http://github.com/pyrsmk/vertical-rhythmic">These mixins</a> and the writing that inspired them, on fluid typography and general web typesetting geekiness, all for your reading pleasure of course
               </li>
             </ul>
             <figure>
