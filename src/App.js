@@ -9,29 +9,26 @@ class App extends Component {
         <header className='hero'>
           <h1>Hi, I’m <br />
           <a href='#aboutMe'>Jamie Caloras</a></h1>
-          <p className='subtitle'>Welcome! Below you’ll find a selection of my work experience in <strong>UX, design, research, product strategy, and front-end code</strong>. &#x1F596;</p>
+          <p className='subtitle'>Welcome! Below you’ll find a selection of my work experience in <strong>UX, Design and Product Strategy</strong>. Tweet me <a href='https://twitter.com/pigstake'>@pigstake</a> &#x1F596;</p>
         </header>
         <article className='work'>
           <section className='work-copy'>
-            <h2>VITAL Card</h2>
-            <h4>A credit card that cares about your financial health and pays you to share</h4>
-            <p>I currently lead design at VITAL, a credit card startup. More coming soon — behind the scenes, design decisions, and the impact I make week after week.</p>
-          </section>
-          <figure className='fullFigure'>
+            <h2>Recent Work</h2>
+            <h4>Since the end of 2017, I’ve worked as a lead contributor for several startups.</h4>
+            <h3>Guai Goods</h3>
+            <p>I spend part of my time now bootstrapping <a href='http://guaigoods.com'>Guai Goods</a> with my cofounder. The fashion industry is toxic. We’re trying to solve consumer problems with our love of secondhand and slow fashion.</p>
+            <h3>hook.io</h3>
+            <p>I’m working with the founder of <a href='http://hook.io'>hook.io</a> to redesign the service. We’re going to roll out a less overwhelming navigation system and friendlier identity soon.</p>
+            <img className='img-full' src='portfolio/hook-landing.png' alt='hook.io redesigned home page'/>
+            <h3>Shogun</h3>
+            <p>When your team quadruples in size in a year, expect growing pains. I helped <a href='http://www.getshogun.com'>Shogun</a> engineers organize designs with standardized UI patterns. We put the patterns to work building Shogun’s long overdue responsive editing tools and custom form builder.</p>
+            <img className='img-full' src='portfolio/shogun-responsive.gif' alt='Animated gif of Shogun responsive editor'/>
+            <h3>Kindur</h3>
+            <p>When I got to <a href='http://www.kindur.com'>Kindur</a>, the CEO had a clear vision and investors had bought into it. My role was working with engineers to unpack the practical realities as we built and evaluated the product. My day-to-day included lots of white board sketching with teammates, exploring data visualization options, shaping a loose brand guide into a UI system, and coding in React.</p>
+            <img className='img-full' src='portfolio/kindur.png' alt='Kindur screenshots'/>
+            <h3>Vital Card</h3>
+            <p>I spent six months with the founder, a data scientist, and two engineers running two-week experiments to optimize sign-ups and the referral rate of <a href='http://bit.ly/vital-card'>Vital</a>.</p>
             <img className='img-full' src='portfolio/vital-screenshot--wide.png' alt='VITAL landing page'/>
-          </figure>
-          <section className='work-copy'>
-            <h3>Key design decisions</h3>
-            <p>coming soon</p>
-          </section>
-          <figure className='fullFigure'>
-            <img className='img-full' src='portfolio/vital-screenshot--twoWidths.png' alt='VITAL landing page displayed in multiple devices'/>
-          </figure>
-          <section className='work-copy'>
-            <h3>The impact I made</h3>
-            <p>coming soon</p>
-            <p><a href='http://bit.ly/vital-google-photos'>See photos and screenshots of my process</a></p>
-            <p><a href='http://bit.ly/vital-card'>Visit the site</a></p>
           </section>
         </article>
         <article className='work'>
@@ -62,10 +59,10 @@ class App extends Component {
             <img className='img-full' src='portfolio/dotvoter-screenshot--twoWidths.png' alt='Dotvoter boards with votes'/>
           </figure>
           <section className='work-copy'>
-            <h3>The impact I made</h3>
+            <h3>The impact</h3>
             <p>Dotvoter transformed Philosophie culture. The CEO uses it during company-wide meetings. Product teams use it with clients during retros. 6,900 people have cast over 22,300 votes on more than 21,000 ideas in two years without any paid marketing effort.</p>
-            <p><em>Try it out!</em> Check out the live app and <a href='http://bit.ly/dotvoter'>decide on something @dotvoterapp.com</a></p>
-            <p><a href='http://bit.ly/dotvoter-google-photos'>See more portfolio photos</a></p>
+            <p><em>Try it out!</em> <a href='http://bit.ly/dotvoter'>Create a board @dotvoterapp</a> and decide on something.</p>
+            <p><a href='http://bit.ly/dotvoter-google-photos'>See behind-the-scenes process photos</a></p>
           </section>
         </article>
         <article className='work'>
@@ -87,7 +84,7 @@ class App extends Component {
               </a>
               <figcaption>I moderated user interviews while my product manager and two engineers noted observations. We organized our notes together to share insights.</figcaption>
             </figure>
-            <h3>The impact I made</h3>
+            <h3>The impact</h3>
             <p>My team learned early on through user interviews that people had trust issues exposing their performance data. Week after week, changes in copy and color helped alleviate this. Over six months, Badger users at a cable company outperformed their peers by 17%.</p>
             <p>For more images of my process and output: <a href='http://bit.ly/pwc-badger-google-photos'>Dig into the work</a></p>
           </section>
@@ -122,7 +119,7 @@ class App extends Component {
             <p>I worked with a New York City pizza restaurant owner as product and design lead. He wanted to grow online orders and move away from third-party solutions. I taught him how to build digital products and services in a Lean way, launching experiments to test ideas and discover opportunities for his customers.</p>
           </section>
           <figure className='fullFigure'>
-            <img className='img-full' src='portfolio/bakers-screenshot--home.png' alt='Baker's Pizza/>
+            <img className='img-full' src='portfolio/bakers-screenshot--home.png' alt='Baker’s Pizza'/>
           </figure>
           <section className='work-copy'>
             <h3>Key design decisions</h3>
@@ -133,7 +130,7 @@ class App extends Component {
               </a>
               <figcaption>Baker’s Pizza founder and I surfacing customer types and experiment ideas, and picking which to focus on first</figcaption>
             </figure>
-            <h3>The impact I made</h3>
+            <h3>The impact</h3>
             <p>This is not a software startup; it’s a pizza restaurant. <a href='https://tcrn.ch/2xVBev7'>All companies might be software companies</a> in the future. I helped the founder see value in digital extensions of his service, and the work it takes to build the right things — teaching and working alongside him with design collaboration, agile implementation planning, and some favorite tools like Slack, Invision and Trello. You can see the two of us in the middle of a design studio in the above photo.</p>
             <p>For more photos of my process and output for Baker’s Pizza: <a href='http://bit.ly/bakers-pizza-google-photos'>Flip through project photos</a></p>
           </section>
@@ -143,13 +140,14 @@ class App extends Component {
             <h2>Other work</h2>
             <h3 className='m-topOnly'>Venmetro</h3>
             <p>
-              <a href='http://bit.ly/venmetro'>venmetro.com</a> &rarr; $2,300,000 lent so far!
+              The first online lending platform in Panama <br/>
+              <a href='http://bit.ly/venmetro'>venmetro.com</a> &rarr; over $2,300,000 lent so far!
               <br /><em>UX research, interaction design, UI design, front-end code, brand design</em>
             </p>
             <h3 className='m-topOnly'>Pstat.us</h3>
             <p>
-              <a href='http://bit.ly/pstat-us'>pstat.us</a>
-              <br /><em>UI design, front-end code, copywriting</em>
+              Brand and marketing for now defunct project management tool <br/>
+              <em>UI design, front-end code, copywriting</em>
             </p>
             <h3 className='m-topOnly'>Greenpeace</h3>
             <p>
@@ -158,13 +156,15 @@ class App extends Component {
             </p>
             <h3 className='m-topOnly'>Washington Interactive Network</h3>
             <p>
+              Local Seattle accelerator and coworking space <br/>
               <a href='http://bit.ly/reactor-win'>The Reactor</a>
               <br /><em>UI design, front-end code, information architecture</em>
             </p>
             <h3 className='m-topOnly'>Streamline Alliance</h3>
             <p>
+              Online presence for a global manufacturing consultant <br/>
               <a href='http://bit.ly/streamline-alliance'>streamline-alliance.com</a>
-              <br /><em>UI design & front-end code</em>
+              <br /><em>interaction design, UI design, front-end code</em>
             </p>
           </section>
         </article>
