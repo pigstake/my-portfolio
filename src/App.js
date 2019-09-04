@@ -7,33 +7,37 @@ class App extends Component {
     return (
       <main>
         <header className='hero'>
-          <h1>UX, Design, Teamwork</h1>
-          <p className='subtitle'>Hi, I’m <a href='#aboutMe'>Jamie Caloras.</a> Below you’ll find a selection of my work. Tweet me <a href='https://twitter.com/pigstake'>@pigstake</a></p>
+          <h1>UX, Design, Code</h1>
+          <p className='subtitle'>Hi, I’m <a href='#aboutMe'>Jamie Caloras.</a> I’ve been designing for humans and their screens since 2010. Below you’ll find a selection of my work. You can find me <a href='https://twitter.com/pigstake'>@pigstake</a>.</p>
         </header>
         <article className='work'>
           <section className='work-copy'>
             <h2>Recent Work</h2>
-            <h4>Since the end of 2017, I’ve worked as a lead contributor for several startups.</h4>
+            <h4>Since 2017, I’ve worked as a lead contributor and cofounder on startup teams.</h4>
             <h3>Guai Goods</h3>
-            <p>I spend part of my time now bootstrapping <a href='http://guaigoods.com'>Guai Goods</a> with my cofounder. The fashion industry is toxic. We’re trying to solve consumer problems with our love of secondhand and slow fashion.</p>
-            <h3>hook.io</h3>
-            <p>I’m working with the founder of <a href='http://hook.io'>hook.io</a> to redesign the service. I helped him set up a funnel to identify and prioritize problems. We’re rolling out a less overwhelming navigation system, clearer copy, and a more accessible design soon.</p>
-            <img className='img-full' src='portfolio/hook-landing.png' alt='hook.io redesigned home page'/>
+            <h5>Helping you make more sustainable clothing decisions | <a href='http://guaigoods.com'>Guai Goods</a></h5>
+            <p>The fashion industry is toxic. My wife and I aim to solve clothing problems with our love of secondhand and slow fashion. Right now we publish a weekly newsletter meant to inspire, educate, and provide a healthier shopping outlet. Take a sneak peak at items we curate on Instagram <a href="https://www.instagram.com/guaigoods/">@guaigoods</a>.</p>
             <h3>Shogun</h3>
-            <p>When your team quadruples in size in a year, expect growing pains. I helped <a href='http://www.getshogun.com'>Shogun</a> engineers organize designs with standardized UI patterns. We put the patterns to work building Shogun’s long overdue responsive editing tools and custom form builder.</p>
+            <h5>Designed high-impact features for this page builder | <a href='http://www.getshogun.com'>Shogun</a></h5>
+            <p>When your team quadruples in size in a year, expect growing pains. I helped engineers better grok designs with standardized UI patterns. We put the patterns to work building Shogun’s long overdue responsive editing tools and custom form builder.</p>
             <img className='img-full' src='portfolio/shogun-responsive.gif' alt='Animated gif of Shogun responsive editor'/>
             <h3>Kindur</h3>
-            <p>When I got to <a href='http://www.kindur.com'>Kindur</a>, the CEO had a clear vision and investors had bought into it. My role was working with engineers to unpack the practical realities as we built and evaluated the product. My day-to-day included lots of white board sketching with teammates, exploring data visualization options, shaping a loose brand guide into a UI system, and coding in React.</p>
+            <h5>Shipped a first version and living style guide | <a href='http://www.kindur.com'>Kindur</a></h5>
+            <p>My role at Kindur was working with engineers to unpack the practical realities of the founder's vision as we built and evaluated the product. Day-to-day included lots of white board sketching with teammates, exploring data visualization options, shaping a loose brand guide into a UI system, and coding in React.</p>
             <img className='img-full' src='portfolio/kindur.png' alt='Kindur screenshots'/>
             <h3>Vital Card</h3>
-            <p>I spent six months with the founder, a data scientist, and two engineers running two-week experiments to optimize sign-ups and the referral rate of <a href='http://bit.ly/vital-card'>Vital</a>.</p>
+            <h5>Drove experiment-driven design |  <a href='http://bit.ly/vital-card'>Vital</a></h5>
+            <p>My friend and old coworker recruited me onto the team. He and I established a process in which we could iterate and optimize as quickly as possible over six months. Along with the founder, a data scientist, and two engineers, I ran two-week design and product experiments to optimize sign-ups and referral rate.</p>
             <img className='img-full' src='portfolio/vital-screenshot--wide.png' alt='VITAL landing page'/>
           </section>
         </article>
         <article className='work'>
           <section className='work-copy'>
             <h2>Dotvoter</h2>
-            <h4>Democratizing decisions for remote teams and saving sticky notes</h4>
+            <h5>
+              Democratizing decisions for remote teams and saving sticky notes <br/>
+              <a href='http://bit.ly/dotvoter'>Live app</a> | <a href='http://bit.ly/dotvoter-google-photos'>Process artifacts</a>
+            </h5>
             <p>Tired of crowding around a wall with your team to place dot votes? Ever need to include remote teammates? Product consulting teams at Philosophie had problems like this almost every day. I designed Dotvoter to solve those problems.</p>
           </section>
           <figure className='fullFigure'>
@@ -60,8 +64,7 @@ class App extends Component {
           <section className='work-copy'>
             <h3>The impact</h3>
             <p>Dotvoter transformed Philosophie culture. The CEO uses it during company-wide meetings. Product teams use it with clients during retros. 6,900 people have cast over 22,300 votes on more than 21,000 ideas in two years without any paid marketing effort.</p>
-            <p><em>Try it out!</em> <a href='http://bit.ly/dotvoter'>Create a board @dotvoterapp</a> and decide on something.</p>
-            <p><a href='http://bit.ly/dotvoter-google-photos'>See behind-the-scenes process photos</a></p>
+            <p><a href='http://bit.ly/dotvoter'>Go create a board @dotvoterapp</a> and decide on something.</p>
           </section>
         </article>
         <article className='work'>
@@ -136,7 +139,7 @@ class App extends Component {
         </article>
         <article className='work'>
           <section className='work-copy'>
-            <h2>Other work</h2>
+            <h2>Older work</h2>
             <h3 className='m-topOnly'>Venmetro</h3>
             <p>
               The first online lending platform in Panama <br/>
@@ -176,7 +179,8 @@ class App extends Component {
             <p>Want to chat about Design? Next steps of your idea? Second-hand or vintage menswear? Send me a message on <a href='https://www.linkedin.com/in/jamisoncaloras/'>LinkedIn</a> or <a href='https://twitter.com/pigstake'>Twitter</a>. Ask me for a photo of my bread if you want to make an impression. 😉🍞&#x1F596;</p>
             <p>Read some of my <a href='https://medium.com/@pigstake'>work-related blog raving on Medium</a>.</p>
           </section>
-          <hr />
+        </article>
+        <footer>
           <section className='work-copy'>
             <p>Oh wow! You made it down here. Well, there’s not much more I can say. This site is handmade with &#x2764;, by yours truly, and:</p>
             <ul>
@@ -191,7 +195,7 @@ class App extends Component {
               <img src='pigSmile.svg' alt='Smiling pig'/>
             </figure>
           </section>
-        </article>
+        </footer>
       </main>
     );
   }
