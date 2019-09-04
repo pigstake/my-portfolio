@@ -7,9 +7,8 @@ class App extends Component {
     return (
       <main>
         <header className='hero'>
-          <h1>Hi, I’m <br />
-          <a href='#aboutMe'>Jamie Caloras</a></h1>
-          <p className='subtitle'>Welcome! Below you’ll find a selection of my work experience in <strong>UX, Design and Product Strategy</strong>. Tweet me <a href='https://twitter.com/pigstake'>@pigstake</a> &#x1F596;</p>
+          <h1>UX, Design, Teamwork</h1>
+          <p className='subtitle'>Hi, I’m <a href='#aboutMe'>Jamie Caloras.</a> Below you’ll find a selection of my work. Tweet me <a href='https://twitter.com/pigstake'>@pigstake</a></p>
         </header>
         <article className='work'>
           <section className='work-copy'>
@@ -18,7 +17,7 @@ class App extends Component {
             <h3>Guai Goods</h3>
             <p>I spend part of my time now bootstrapping <a href='http://guaigoods.com'>Guai Goods</a> with my cofounder. The fashion industry is toxic. We’re trying to solve consumer problems with our love of secondhand and slow fashion.</p>
             <h3>hook.io</h3>
-            <p>I’m working with the founder of <a href='http://hook.io'>hook.io</a> to redesign the service. We’re going to roll out a less overwhelming navigation system and friendlier identity soon.</p>
+            <p>I’m working with the founder of <a href='http://hook.io'>hook.io</a> to redesign the service. I helped him set up a funnel to identify and prioritize problems. We’re rolling out a less overwhelming navigation system, clearer copy, and a more accessible design soon.</p>
             <img className='img-full' src='portfolio/hook-landing.png' alt='hook.io redesigned home page'/>
             <h3>Shogun</h3>
             <p>When your team quadruples in size in a year, expect growing pains. I helped <a href='http://www.getshogun.com'>Shogun</a> engineers organize designs with standardized UI patterns. We put the patterns to work building Shogun’s long overdue responsive editing tools and custom form builder.</p>
@@ -174,7 +173,7 @@ class App extends Component {
             <h4>Designer, board-game enthusiast, &amp; amateur bread baker in Brooklyn</h4>
             <p>Hello! 👋 I’m a problem finder, definer, prioritizer, and solver — a Designer. I moderate warm and hospitable research sessions, facilitate lively creative collaborations, help my teams understand users, build design systems, test prototypes, and ship product. My specialty is user-centered design of digital things, with more focus on product than marketing.</p>
             <p>Over the past eight years, I’ve been fortunate to work with wonderful in-house, agency, and consulting teams, solving problems for clients all over the world. I have particularly enjoyed the times working closely with small, diverse teams full of trust and collaborative rhythm. If you’re reading this — thank you.</p>
-            <p>Want to chat about Design? Next steps of your idea? Second-hand or vintage menswear? Send me a message on <a href='https://www.linkedin.com/in/jamisoncaloras/'>LinkedIn</a> or <a href='https://twitter.com/pigstake'>Twitter</a>. Ask me for a photo of my bread if you want to make an impression. 😉🍞</p>
+            <p>Want to chat about Design? Next steps of your idea? Second-hand or vintage menswear? Send me a message on <a href='https://www.linkedin.com/in/jamisoncaloras/'>LinkedIn</a> or <a href='https://twitter.com/pigstake'>Twitter</a>. Ask me for a photo of my bread if you want to make an impression. 😉🍞&#x1F596;</p>
             <p>Read some of my <a href='https://medium.com/@pigstake'>work-related blog raving on Medium</a>.</p>
           </section>
           <hr />

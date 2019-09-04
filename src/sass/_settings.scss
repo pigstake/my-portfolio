@@ -3,27 +3,30 @@
 
 // Color palette
 $color-white: rgb(255,255,255);
-$color-black: rgb(5,5,23);
-$color-sand: rgb(224,203,168);
+$color-lightGray: rgb(244,249,249);
+$color-black: rgb(25,17,19);
 
-$color-blue: rgb(98,60,234);
-$color-blueShade: mix($color-blue, $color-black, 40%);
+$color-blackOffset: mix($color-black, $color-lightGray, 70%);
+$color-blackOffset--light: mix($color-black, $color-lightGray, 50%);
+$color-whiteOffset: mix($color-white, $color-lightGray, 90%);
 
-$color-yellow: rgb(237,240,96);
-$color-yellowTint: mix($color-yellow, $color-white, 40%);
+$color-yellow: rgb(233,255,0);
+$color-yellowTint: mix($color-yellow, $color-white, 20%);
 
-$color-red: rgb(222, 60, 75);
+/*
+New colors
+$color-offWhite: #f6e8ea;
+$color-peach: #ffa552;
+$color-black: #050609;
+$color-persimmon: #f15156;
+$color-darkGray: #22181c;
 
-$color-green: rgb(21,127,31);
-
-$color-blackOffset: mix($color-black, $color-sand, 70%);
-$color-blackOffset--light: mix($color-black, $color-sand, 40%);
-$color-whiteOffset: mix($color-white, $color-sand, 90%);
+*/
 
 // Fonts
-$serif: "freight-text-pro", Georgia, Times, "Times New Roman", serif;
+$serif: miller-text, bookmania, freight-text-pro, Georgia, Times, "Times New Roman", serif;
 $serif-display: "freight-display-pro", Georgia, Times, "Times New Roman", serif;
-$sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans-serif: trade-gothic-next, itc-avant-garde-gothic-pro, freight-sans-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $mono: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 
 // Set modular scale vars
