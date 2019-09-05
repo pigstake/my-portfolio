@@ -7,37 +7,35 @@ class App extends Component {
     return (
       <main>
         <header className='hero'>
-          <h1>UX, Design, Code</h1>
-          <p className='subtitle'>Hi, I’m <a href='#aboutMe'>Jamie Caloras.</a> I’ve been designing for humans and their screens since 2010. Below you’ll find a selection of my work. You can find me <a href='https://twitter.com/pigstake'>@pigstake</a>.</p>
+          <p className='subtitle'>Hi, I’m <a href='#aboutMe'>Jamie.</a> I’ve been designing for humans and our screens since 2010. Below you’ll find artifacts, examples, and stories of my work. You’ll find aspects of me on <a href='https://twitter.com/pigstake'>Twitter</a>, <a href="https://medium.com/@pigstake">Medium</a>, <a href="https://www.instagram.com/pigstake">Instagram</a>, and <a href="https://www.linkedin.com/in/jamisoncaloras/">LinkedIn</a>.</p>
         </header>
         <article className='work'>
           <section className='work-copy'>
             <h2>Recent Work</h2>
-            <h4>Since 2017, I’ve worked as a lead contributor and cofounder on startup teams.</h4>
+            <p>Since 2017, I’ve worked as a cofounder and lead product design contributor on startup teams in fashion, ecommerce, and finance.</p>
             <h3>Guai Goods</h3>
-            <h5>Helping you make more sustainable clothing decisions | <a href='http://guaigoods.com'>Guai Goods</a></h5>
-            <p>The fashion industry is toxic. My wife and I aim to solve clothing problems with our love of secondhand and slow fashion. Right now we publish a weekly newsletter meant to inspire, educate, and provide a healthier shopping outlet. Take a sneak peak at items we curate on Instagram <a href="https://www.instagram.com/guaigoods/">@guaigoods</a>.</p>
+            <h5>Helping you make more sustainable clothing decisions <br /> <a href='http://guaigoods.com'>Visit Guai Goods</a></h5>
+            <p>The fashion industry is toxic – for you, for its workers, for the environment. My wife and I aim to solve clothing problems with our love of secondhand and slow fashion. Right now we publish a weekly newsletter meant to inspire, educate, and provide a healthier shopping outlet. Take a sneak peak at items we curate on <a href="https://www.instagram.com/guaigoods/">Instagram @guaigoods</a>.</p>
             <h3>Shogun</h3>
-            <h5>Designed high-impact features for this page builder | <a href='http://www.getshogun.com'>Shogun</a></h5>
+            <h5>Designed high-impact features for this page builder <br/> <a href='http://www.getshogun.com'>Visit Shogun</a></h5>
             <p>When your team quadruples in size in a year, expect growing pains. I helped engineers better grok designs with standardized UI patterns. We put the patterns to work building Shogun’s long overdue responsive editing tools and custom form builder.</p>
             <img className='img-full' src='portfolio/shogun-responsive.gif' alt='Animated gif of Shogun responsive editor'/>
             <h3>Kindur</h3>
-            <h5>Shipped a first version and living style guide | <a href='http://www.kindur.com'>Kindur</a></h5>
+            <h5>Shipped a first version and living style guide <br/> <a href='http://www.kindur.com'>Visit Kindur</a></h5>
             <p>My role at Kindur was working with engineers to unpack the practical realities of the founder's vision as we built and evaluated the product. Day-to-day included lots of white board sketching with teammates, exploring data visualization options, shaping a loose brand guide into a UI system, and coding in React.</p>
             <img className='img-full' src='portfolio/kindur.png' alt='Kindur screenshots'/>
             <h3>Vital Card</h3>
-            <h5>Drove experiment-driven design |  <a href='http://bit.ly/vital-card'>Vital</a></h5>
+            <h5>Drove experiment-driven design <br/> <a href='http://bit.ly/vital-card'>Visit Vital</a></h5>
             <p>My friend and old coworker recruited me onto the team. He and I established a process in which we could iterate and optimize as quickly as possible over six months. Along with the founder, a data scientist, and two engineers, I ran two-week design and product experiments to optimize sign-ups and referral rate.</p>
             <img className='img-full' src='portfolio/vital-screenshot--wide.png' alt='VITAL landing page'/>
           </section>
         </article>
         <article className='work'>
           <section className='work-copy'>
-            <h2>Dotvoter</h2>
-            <h5>
-              Democratizing decisions for remote teams and saving sticky notes <br/>
-              <a href='http://bit.ly/dotvoter'>Live app</a> | <a href='http://bit.ly/dotvoter-google-photos'>Process artifacts</a>
-            </h5>
+            <header className='work-header'>
+              <h2>Dotvoter</h2>
+              <h5>Converge, diverge, and save sticky notes <br/> <a href='http://bit.ly/dotvoter'>Visit live app</a> // <a href='http://bit.ly/dotvoter-google-photos'>Browse design artifacts</a></h5>
+            </header>
             <p>Tired of crowding around a wall with your team to place dot votes? Ever need to include remote teammates? Product consulting teams at Philosophie had problems like this almost every day. I designed Dotvoter to solve those problems.</p>
           </section>
           <figure className='fullFigure'>
@@ -69,8 +67,10 @@ class App extends Component {
         </article>
         <article className='work'>
           <section className='work-copy'>
-            <h2>Badger</h2>
-            <h4>Visualizing work data to help distributed sales teams work smarter and happier</h4>
+            <header className='work-header'>
+              <h2>Badger</h2>
+              <h5>Visualizing work data to help distributed sales teams work smarter and happier <br/> <a href='http://bit.ly/pwc-badger-google-photos'>Browse design artifacts</a></h5>
+            </header>
             <p>Badger is a performance feedback mobile app. How can personal data help remote salespeople? Their teams? Their managers? And how could my team alleviate the mistrust in how managers could use data? I led design on this product at Philosophie. My team was five strong — three engineers, myself, and a product manager.</p>
           </section>
           <figure className='fullFigure'>
@@ -88,13 +88,14 @@ class App extends Component {
             </figure>
             <h3>The impact</h3>
             <p>My team learned early on through user interviews that people had trust issues exposing their performance data. Week after week, changes in copy and color helped alleviate this. Over six months, Badger users at a cable company outperformed their peers by 17%.</p>
-            <p>For more images of my process and output: <a href='http://bit.ly/pwc-badger-google-photos'>Dig into the work</a></p>
           </section>
         </article>
         <article className='work'>
           <section className='work-copy'>
-            <h2>Field Service OS</h2>
-            <h4>A friendly robot and new way of working to connect a field service team</h4>
+            <header className='work-header'>
+              <h2>Field Service OS</h2>
+              <h5>A friendly robot and new way of working to connect a field service team <br/> <a href='http://bit.ly/pwc-fso-google-photos'>Browse design artifacts</a></h5>
+            </header>
             <p>How might a band of techies help a 70-year old service company better serve their customers? My team was six strong — one strategist, two designers, two engineers, and a program manager. I led the team through <a href='http://bit.ly/organizing-ux-research'>field research</a>, cooperative design workshops, and prototype tests with dispatchers, warehouse managers, and field technicians to discover how we could help.</p>
           </section>
           <figure className='fullFigure'>
@@ -111,13 +112,14 @@ class App extends Component {
               </a>
               <figcaption>I moderated design studios, design sprints, and research synthesis with my team. Collaborative sketching helped to communicate and plan fast together.</figcaption>
             </figure>
-            <p>For more images of my process and output: <a href='http://bit.ly/pwc-fso-google-photos'>See more behind the scenes and screens</a></p>
           </section>
         </article>
         <article className='work'>
           <section className='work-copy'>
-            <h2>Baker’s Pizza</h2>
-            <h4>Better pizza delivery in the Big Apple</h4>
+            <header className='work-header'>
+              <h2>Baker’s Pizza</h2>
+              <h5>Better pizza delivery in the Big Apple <br/> <a href='http://bit.ly/bakers-pizza-google-photos'>Browse design artifacts</a></h5>
+            </header>
             <p>I worked with a New York City pizza restaurant owner as product and design lead. He wanted to grow online orders and move away from third-party solutions. I taught him how to build digital products and services in a Lean way, launching experiments to test ideas and discover opportunities for his customers.</p>
           </section>
           <figure className='fullFigure'>
@@ -134,50 +136,34 @@ class App extends Component {
             </figure>
             <h3>The impact</h3>
             <p>This is not a software startup; it’s a pizza restaurant. <a href='https://tcrn.ch/2xVBev7'>All companies might be software companies</a> in the future. I helped the founder see value in digital extensions of his service, and the work it takes to build the right things — teaching and working alongside him with design collaboration, agile implementation planning, and some favorite tools like Slack, Invision and Trello. You can see the two of us in the middle of a design studio in the above photo.</p>
-            <p>For more photos of my process and output for Baker’s Pizza: <a href='http://bit.ly/bakers-pizza-google-photos'>Flip through project photos</a></p>
           </section>
         </article>
         <article className='work'>
           <section className='work-copy'>
             <h2>Older work</h2>
-            <h3 className='m-topOnly'>Venmetro</h3>
-            <p>
-              The first online lending platform in Panama <br/>
-              <a href='http://bit.ly/venmetro'>venmetro.com</a> &rarr; over $2,300,000 lent so far!
-              <br /><em>UX research, interaction design, UI design, front-end code, brand design</em>
-            </p>
-            <h3 className='m-topOnly'>Pstat.us</h3>
-            <p>
-              Brand and marketing for now defunct project management tool <br/>
-              <em>UI design, front-end code, copywriting</em>
-            </p>
-            <h3 className='m-topOnly'>Greenpeace</h3>
-            <p>
-              The Environmentalist Blog
-              <br /><em>UI design, front-end code, information architecture</em>
-            </p>
+            <h3>Venmetro</h3>
+            <h5>The first online lending platform in Panama <br/> <a href='http://bit.ly/venmetro'>Visit site</a></h5>
+            <p><strong>My contribution:</strong> UX research, interaction design, UI design, front-end code, brand design</p>
+            <h3>Greenpeace</h3>
+            <h5>The Environmentalist Blog</h5>
+            <p><strong>My contribution:</strong> UI design, front-end code, information architecture</p>
             <h3 className='m-topOnly'>Washington Interactive Network</h3>
-            <p>
-              Local Seattle accelerator and coworking space <br/>
-              <a href='http://bit.ly/reactor-win'>The Reactor</a>
-              <br /><em>UI design, front-end code, information architecture</em>
-            </p>
+            <h5>Local Seattle accelerator and coworking space <br/> <a href='http://bit.ly/reactor-win'>Visit site</a></h5>
+            <p><strong>My contribution:</strong> UI design, front-end code, information architecture</p>
             <h3 className='m-topOnly'>Streamline Alliance</h3>
-            <p>
-              Online presence for a global manufacturing consultant <br/>
-              <a href='http://bit.ly/streamline-alliance'>streamline-alliance.com</a>
-              <br /><em>interaction design, UI design, front-end code</em>
-            </p>
+            <h5>Online presence for a global manufacturing consultant <br/> <a href='http://bit.ly/streamline-alliance'>Visit site</a></h5>
+            <p><strong>My contribution:</strong> interaction design, UI design, front-end code</p>
           </section>
         </article>
         <article className='work' id='aboutMe'>
           <section className='work-copy'>
-            <h2>About me</h2>
-            <h4>Designer, board-game enthusiast, &amp; amateur bread baker in Brooklyn</h4>
-            <p>Hello! 👋 I’m a problem finder, definer, prioritizer, and solver — a Designer. I moderate warm and hospitable research sessions, facilitate lively creative collaborations, help my teams understand users, build design systems, test prototypes, and ship product. My specialty is user-centered design of digital things, with more focus on product than marketing.</p>
-            <p>Over the past eight years, I’ve been fortunate to work with wonderful in-house, agency, and consulting teams, solving problems for clients all over the world. I have particularly enjoyed the times working closely with small, diverse teams full of trust and collaborative rhythm. If you’re reading this — thank you.</p>
-            <p>Want to chat about Design? Next steps of your idea? Second-hand or vintage menswear? Send me a message on <a href='https://www.linkedin.com/in/jamisoncaloras/'>LinkedIn</a> or <a href='https://twitter.com/pigstake'>Twitter</a>. Ask me for a photo of my bread if you want to make an impression. 😉🍞&#x1F596;</p>
-            <p>Read some of my <a href='https://medium.com/@pigstake'>work-related blog raving on Medium</a>.</p>
+            <header className='work-header'>
+              <h2>About me</h2>
+              <h5>Designer, board-game enthusiast, and amateur bread baker in Brooklyn</h5>
+            </header>
+            <p>Hello! <span role="img" aria-label="wave emoji">👋</span> I’m a problem finder, definer, prioritizer, and solver — a Designer. I moderate warm and hospitable research sessions, facilitate lively creative collaborations, help my teams understand users, build design systems, test prototypes, and ship product. My specialty is user-centered design of digital things.</p>
+            <p>Since 2010, I’ve been fortunate to work with wonderful in-house, agency, and consulting teams, solving problems for clients all over the world, contributing to and leading the design work, teaching and (often learning!) as I go. I have particularly enjoyed the times working closely with small, diverse teams full of trust and collaborative rhythm. If you’re reading this — thank you.</p>
+            <p>Want to chat about Design? Next steps of your idea? Second-hand or vintage menswear? Send me a message on <a href='https://www.linkedin.com/in/jamisoncaloras/'>LinkedIn</a> or <a href='https://twitter.com/pigstake'>Twitter</a>. Ask me for a photo of my bread if you want to make an impression. <span role="img" aria-label="wink, bread, and spock emojis">😉🍞&#x1F596;</span></p>
           </section>
         </article>
         <footer>

@@ -4,14 +4,18 @@
 // Color palette
 $color-white: rgb(255,253,253);
 $color-gray: rgb(131,122,117);
-$color-black: rgb(22,21,25);
+$color-black: rgb(4,21,31);
 $color-yellow: rgb(232,255,0);
 $color-peach: rgb(255,232,209);
+$color-orange: rgb(255,184,111);
+$color-green: rgb(145,245,173);
+$color-darkGreen: rgb(21,122,110);
+$color-blue: rgb(110,68,255);
+$color-red: rgb(238,96,85);
 
 // Fonts
-$serif: miller-text, bookmania, freight-text-pro, Georgia, Times, "Times New Roman", serif;
-$serif-display: "freight-display-pro", Georgia, Times, "Times New Roman", serif;
-$sans-serif: trade-gothic-next, itc-avant-garde-gothic-pro, freight-sans-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif: granville, Times, "Times New Roman", serif;
+$sans-serif: granville, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $mono: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 
 // Set modular scale vars
@@ -41,6 +45,19 @@ $ms-base: 1em;
 // Set vertical-rhythm vars
 $vr-rhythm: ms(4);
 
-// Page border
-$border-color: $color-black;
-$border-width: ms(0);
+// Breakpoints
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}
