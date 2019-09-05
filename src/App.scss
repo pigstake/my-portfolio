@@ -4,21 +4,17 @@
 @import "sass/grid";
 
 html {
-  @include vr-fluid(ms(0), ms(4), 20em, 120em);
+  @include vr-fluid(ms(0), ms(5), 20em, 112.5em);
   @include vr-optimize();
-  background-color: $color-whiteOffset;
+  background-color: $color-white;
   line-height: vr-strip(vr(1));
 }
 body {
-  // border-left: solid $border-width /2 $border-color;
   color: $color-black;
   font-family: $serif;
   font-size: ms(1);
   margin: 0;
   // @include vr-grid();
-  @media screen and (min-width : 768px) {
-    // border-width: $border-width;
-  }
 }
 // body:before {
 //     content: "";
@@ -39,68 +35,45 @@ main {
   overflow: visible;
 }
 .hero {
-  padding: vr(3) vr(1, ms(3));
-  @media screen and (min-width : 480px) {
-    display: flex;
-    flex-direction: column;
+  background-color: $color-peach;
+  padding: vr(2) vr(1, ms(3)) vr(1);
+  @include for-tablet-portrait-up {
+    padding-left: vr(1);
+    padding-right: vr(1);
   }
-  @media screen and (min-width : 768px) {
-    padding-top: vr(5);
-    padding-bottom: vr(5);
+  @include for-tablet-landscape-up {
+    padding-left: vr(2);
+    padding-right: vr(2);
   }
-  @media screen and (min-width : 960px) {
+  @include for-desktop-up {
     padding-left: vr(3);
     padding-right: vr(3);
   }
-  @media screen and (min-width : 1280px) {
+  @include for-big-desktop-up {
     padding-left: vr(5);
     padding-right: vr(5);
   }
 }
 h1 {
-  font-family: $serif-display;
-  font-size: ms(8);
-  font-style: italic;
-  font-weight: 900;
-  letter-spacing: -0.01em;
-  line-height: vr-strip(vr(2, ms(8)));
-  margin: 0 0 0 -4px;
-  transform: rotate(-13deg);
-  @media screen and (min-width : 375px) {
-    font-size: ms(9);
-    line-height: vr-strip(vr(2, ms(9)));
+  font-family: $sans-serif;
+  font-size: ms(0);
+  font-weight: 400;
+  margin: 0;
+  @include for-tablet-portrait-up {
   }
-  @media screen and (min-width : 480px) {
-    font-size: ms(11);
-    letter-spacing: 0;
-    line-height: vr-strip(vr(2, ms(11)));
-    margin-left: 0;
-  }
-  @media screen and (min-width : 640px) {
-    font-size: ms(13);
-    line-height: vr-strip(vr(3, ms(13)));
-  }
-  @media screen and (min-width : 768px) {
-    font-size: ms(14);
-    letter-spacing: 0.01em;
-    line-height: vr-strip(vr(3, ms(14)));
-    // margin-top: vr(1, ms(14));
-    // margin-left: vr(1, ms(0)) *-1;
-    // word-spacing: 0.01em;
+  @include for-tablet-landscape-up {
   }
 }
 .subtitle {
-  color: $color-blackOffset;
-  padding-top: vr(3);
-  @media screen and (min-width : 480px) {
-    align-self: flex-end;
-    font-size: ms(0);
-    width: vr(12);
+  @include for-tablet-portrait-up {
+    max-width: vr(20);
   }
 }
 h2,
 h3 {
- font-weight: 700;
+ font-family: $sans-serif;
+ // font-style: italic;
+ font-weight: 800;
 }
 h2,
 h3,
@@ -109,37 +82,47 @@ p {
 }
 h2 {
   font-size: ms(9);
-  letter-spacing: ms(-34) *-1;
+  letter-spacing: -1px;
   line-height: vr-strip(vr(2, ms(9)));
-  margin-bottom: vr(2, ms(9));
+  margin-bottom: vr(1, ms(9));
   position: relative;
-  @media screen and (min-width : 480px) {
+  @include for-tablet-portrait-up {
     font-size: ms(10);
-    margin-bottom: vr(3, ms(10));
+    letter-spacing: -2px;
+  line-height: vr-strip(vr(2, ms(10)));
+    margin-bottom: vr(1, ms(10));
   }
-  @media screen and (min-width : 768px) {
-    font-size: ms(11);
+  @include for-tablet-landscape-up {
+    font-size: ms(10);
     letter-spacing: -1px;
     margin-bottom: vr(1, ms(11));
   }
 }
 h3 {
   font-size: ms(3);
-  letter-spacing: 0.01em;
   line-height: vr-strip(vr(1, ms(3)));
-  margin: vr(2.5, ms(3)) 0 vr(0.5, ms(3));
+  margin: vr(3.5, ms(3)) 0 vr(0.5, ms(3));
 }
 h4 {
-  color: $color-blackOffset--light;
-  font-size: ms(3);
+  color: $color-gray;
+  font-size: ms(2);
   font-weight: normal;
   letter-spacing: 0.02em;
-  line-height: vr-strip(vr(1, ms(3)));
-  margin: vr(2, ms(3)) 0 vr(1, ms(3));
+  line-height: vr(1, ms(2));
+  margin: vr(2, ms(2)) 0 vr(1, ms(2));
   @media screen and (min-width : 480px) {
-    font-size: ms(4);
-    line-height: vr-strip(vr(1, ms(4)));
     margin: vr(1, ms(4)) 0 vr(2, ms(4));
+  }
+}
+h5 {
+  color: $color-gray;
+  font-family: $sans-serif;
+  font-size: ms(-2);
+  font-weight: 400;
+  margin: vr(0.5, ms(-4)) 0 vr(0.5, ms(-4));
+  text-transform: uppercase;
+  @include for-tablet-portrait-up {
+    font-size: ms(-3);
   }
 }
 p {
@@ -148,7 +131,7 @@ p {
 a {
   transition: background 300ms ease-out;
   border-bottom: 0px solid $color-yellow;
-  box-shadow: inset 0 vr(1)/-4 0 $color-yellow;
+  box-shadow: inset 0 vr(1)/-8 0 $color-yellow;
   color: $color-black;
   text-decoration: none;
   &:focus,
@@ -169,20 +152,20 @@ a {
   }
 }
 ul {
-  // list-style-image: url(../public/egg.svg);
+  // list-style-image: url(egg.svg);
   list-style-position: outside;
   margin: 0;
   padding: 0;
 }
 li {
-  background: url(../public/egg.svg) no-repeat;
-  background-position: ms(2) ms(-3);
+  background: url(egg.svg) no-repeat;
+  background-position: ms(2) ms(-5);
   background-size: ms(1);
   list-style: none;
   margin-bottom: vr(1);
   margin-left: ms(9) * -1;
   padding-left: ms(9);
-  @media screen and (min-width : 1025px) {
+  @include for-tablet-landscape-up {
     margin-left: ms(10) * -1;
     padding-left: ms(10);
   }
@@ -191,12 +174,12 @@ figure {
   margin: 0 0 vr(1);
 }
 figcaption {
-  color: $color-blackOffset--light;
+  color: $color-gray;
   font-style: italic;
 }
 code {
-  background: $color-sand;
-  color: $color-red;
+  background: $color-gray;
+  // color: $color-red;
   font-family: $mono;
   font-size: ms(-1);
   line-height: vr-strip(vr(1));
@@ -209,27 +192,34 @@ hr {
   opacity: 0.25;
 }
 .work {
-  clear: both;
   padding: vr(3) vr(1, ms(3));
-  position: relative;
-  @media screen and (min-width : 768px) {
-    // margin: vr(3) 0;
-  }
-}
-.work-copy {
-  margin: 0 auto;
-  max-width: vr(20);
-  position: relative;
-  @media screen and (min-width : 768px) {
+  @include for-tablet-portrait-up {
+    padding-bottom: vr(4);
     padding-left: vr(1);
     padding-right: vr(1);
   }
+  @include for-tablet-landscape-up {
+    padding-left: vr(2);
+    padding-right: vr(2);
+  }
+  @include for-desktop-up {
+    padding-left: vr(3);
+    padding-right: vr(3);
+  }
+  @include for-big-desktop-up {
+    padding-left: vr(5);
+    padding-right: vr(5);
+  }
+}
+.work-copy {
+  max-width: vr(20);
+}
+.work-header {
+  margin-bottom: vr(1);
 }
 .fullFigure {
   padding-top: vr(1);
-  @media screen and (min-width : 768px) {
-   margin-left: auto;
-   margin-right: auto;
+  @include for-tablet-landscape-up {
    max-width: 1280px;
  }
 }
@@ -262,6 +252,22 @@ hr {
   height: ms(0);
   vertical-align: -10%;
   width: auto;
+}
+
+footer {
+  background-color: $color-peach;
+  padding: vr(5) 0 vr(5) vr(1, ms(3));
+  @include for-tablet-portrait-up {
+    padding-left: vr(1);
+  }
+  @include for-tablet-landscape-up {
+  }
+  @include for-desktop-up {
+    padding-left: vr(3);
+  }
+  @include for-big-desktop-up {
+    padding-left: vr(5);
+  }
 }
 
 //UTILITIES

@@ -2,37 +2,62 @@
 @import "vertical-rhythmic";
 
 // Color palette
-$color-white: rgb(255,255,255);
-$color-black: rgb(5,5,23);
-$color-sand: rgb(224,203,168);
-
-$color-blue: rgb(98,60,234);
-$color-blueShade: mix($color-blue, $color-black, 40%);
-
-$color-yellow: rgb(237,240,96);
-$color-yellowTint: mix($color-yellow, $color-white, 40%);
-
-$color-red: rgb(222, 60, 75);
-
-$color-green: rgb(21,127,31);
-
-$color-blackOffset: mix($color-black, $color-sand, 70%);
-$color-blackOffset--light: mix($color-black, $color-sand, 40%);
-$color-whiteOffset: mix($color-white, $color-sand, 90%);
+$color-white: rgb(255,253,253);
+$color-gray: rgb(131,122,117);
+$color-black: rgb(4,21,31);
+$color-yellow: rgb(232,255,0);
+$color-peach: rgb(255,232,209);
+$color-orange: rgb(255,184,111);
+$color-green: rgb(145,245,173);
+$color-darkGreen: rgb(21,122,110);
+$color-blue: rgb(110,68,255);
+$color-red: rgb(238,96,85);
 
 // Fonts
-$serif: "freight-text-pro", Georgia, Times, "Times New Roman", serif;
-$serif-display: "freight-display-pro", Georgia, Times, "Times New Roman", serif;
-$sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif: granville, Times, "Times New Roman", serif;
+$sans-serif: granville, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $mono: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 
 // Set modular scale vars
 $ms-ratio: $major-second;
+/*
+$phi	1:1.618	1.618
+$golden	1:1.618	1.618
+$double-octave	1:4	4
+$major-twelfth	1:3	3
+$major-eleventh	3:8	2.667
+$major-tenth	2:5	2.5
+$octave	1:2	2
+$major-seventh	8:15	1.875
+$minor-seventh	9:16	1.778
+$major-sixth	3:5	1.667
+$minor-sixth	5:8	1.6
+$fifth	2:3	1.5
+$augmented-fourth	1:√2	1.414
+$fourth	3:4	1.333
+$major-third	4:5	1.25
+$minor-third	5:6	1.2
+$major-second	8:9	1.125
+$minor-second	15:16	1.067
+*/
 $ms-base: 1em;
 
 // Set vertical-rhythm vars
 $vr-rhythm: ms(4);
 
-// Page border
-$border-color: $color-black;
-$border-width: ms(0);
+// Breakpoints
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}
