@@ -14,18 +14,18 @@ class App extends Component {
             <h2>Recent Work</h2>
             <p>Since 2017, I’ve worked as a cofounder and lead product design contributor on startup teams in fashion, ecommerce, and finance.</p>
             <h3>Guai Goods</h3>
-            <h5>Helping you make more sustainable clothing decisions <br /> <a href='http://guaigoods.com'>Visit Guai Goods</a></h5>
+            <h5>Helping you find secondhand and slow fashion clothes and inspiration <br /> <a href='http://guaigoods.com'>Visit Guai Goods</a></h5>
             <p>The fashion industry is toxic – for you, for its workers, for the environment. My wife and I aim to solve clothing problems with our love of secondhand and slow fashion. Right now we publish a weekly newsletter meant to inspire, educate, and provide a healthier shopping outlet. Take a sneak peak at items we curate on <a href="https://www.instagram.com/guaigoods/">Instagram @guaigoods</a>.</p>
             <h3>Shogun</h3>
-            <h5>Designed high-impact features for this page builder <br/> <a href='http://www.getshogun.com'>Visit Shogun</a></h5>
+            <h5>High-impact features for the most popular Shopify page builder <br/> <a href='http://www.getshogun.com'>Visit Shogun</a></h5>
             <p>When your team quadruples in size in a year, expect growing pains. I helped engineers better grok designs with standardized UI patterns. We put the patterns to work building Shogun’s long overdue responsive editing tools and custom form builder.</p>
             <img className='img-full' src='portfolio/shogun-responsive.gif' alt='Animated gif of Shogun responsive editor'/>
             <h3>Kindur</h3>
-            <h5>Shipped a first version and living style guide <br/> <a href='http://www.kindur.com'>Visit Kindur</a></h5>
+            <h5>Retirement finance advice  and a living style guide <br/> <a href='http://www.kindur.com'>Visit Kindur</a></h5>
             <p>My role at Kindur was working with engineers to unpack the practical realities of the founder's vision as we built and evaluated the product. Day-to-day included lots of white board sketching with teammates, exploring data visualization options, shaping a loose brand guide into a UI system, and coding in React.</p>
             <img className='img-full' src='portfolio/kindur.png' alt='Kindur screenshots'/>
             <h3>Vital Card</h3>
-            <h5>Drove experiment-driven design <br/> <a href='http://bit.ly/vital-card'>Visit Vital</a></h5>
+            <h5>Experiment-driven design to optimize acquisition and referrals <br/> <a href='http://bit.ly/vital-card'>Visit Vital</a></h5>
             <p>My friend and old coworker recruited me onto the team. He and I established a process in which we could iterate and optimize as quickly as possible over six months. Along with the founder, a data scientist, and two engineers, I ran two-week design and product experiments to optimize sign-ups and referral rate.</p>
             <img className='img-full' src='portfolio/vital-screenshot--wide.png' alt='VITAL landing page'/>
           </section>
@@ -110,7 +110,7 @@ class App extends Component {
               <a className='img-link' href='http://bit.ly/pwc-fso-google-photos'>
                 <img className='img-full' src='portfolio/fso-sketches.png' alt='Taskflow sketched'/>
               </a>
-              <figcaption>I moderated design studios, design sprints, and research synthesis with my team. Collaborative sketching helped to communicate and plan fast together.</figcaption>
+              <figcaption>I moderated design studios, design sprints, and research synthesis with my team. Collaborative sketching helped us communicate and plan fast.</figcaption>
             </figure>
           </section>
         </article>
@@ -164,6 +164,19 @@ class App extends Component {
             <p>Hello! <span role="img" aria-label="wave emoji">👋</span> I’m a problem finder, definer, prioritizer, and solver — a Designer. I moderate warm and hospitable research sessions, facilitate lively creative collaborations, help my teams understand users, build design systems, test prototypes, and ship product. My specialty is user-centered design of digital things.</p>
             <p>Since 2010, I’ve been fortunate to work with wonderful in-house, agency, and consulting teams, solving problems for clients all over the world, contributing to and leading the design work, teaching and (often learning!) as I go. I have particularly enjoyed the times working closely with small, diverse teams full of trust and collaborative rhythm. If you’re reading this — thank you.</p>
             <p>Want to chat about Design? Next steps of your idea? Second-hand or vintage menswear? Send me a message on <a href='https://www.linkedin.com/in/jamisoncaloras/'>LinkedIn</a> or <a href='https://twitter.com/pigstake'>Twitter</a>. Ask me for a photo of my bread if you want to make an impression. <span role="img" aria-label="wink, bread, and spock emojis">😉🍞&#x1F596;</span></p>
+            <h3>My 2019 reading list</h3>
+            <ul>
+              <li><cite>CivilWarLand in Bad Decline</cite><h5 className='m-bottomOnly'>by George Saunders</h5></li>
+              <li><cite>Nimona</cite><h5 className='m-bottomOnly'>by Noelle Stevenson</h5></li>
+              <li><cite>The One Hundred Nights of Hero</cite><h5 className='m-bottomOnly'>by Isabel Greenberg</h5></li>
+              <li><cite>The Quantum Thief</cite><h5 className='m-bottomOnly'>by Hannu Rajaniemi</h5></li>
+              <li><cite>The Parable of the Sower</cite><h5 className='m-bottomOnly'>by Octavia Butler</h5></li>
+              <li><cite>The Windup Girl</cite><h5 className='m-bottomOnly'>by Paolo Bacigalupi</h5></li>
+              <li><cite>Ruined by Design</cite><h5 className='m-bottomOnly'>by Mike Monteiro</h5></li>
+              <li><cite>Blood, Bones & Butter</cite><h5 className='m-bottomOnly'>by Gabrielle Hamilton</h5></li>
+              <li><cite>Saga: Book Three</cite><h5 className='m-bottomOnly'>by Brian K. Vaughan</h5></li>
+              <li><cite>Everfair</cite><h5 className='m-bottomOnly'>by Nisi Shawl</h5></li>
+            </ul>
           </section>
         </article>
         <footer>

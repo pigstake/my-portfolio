@@ -253,20 +253,24 @@ hr {
   vertical-align: -10%;
   width: auto;
 }
-
 footer {
   background-color: $color-peach;
-  padding: vr(5) 0 vr(5) vr(1, ms(3));
+  padding: vr(5) vr(1, ms(3));
   @include for-tablet-portrait-up {
     padding-left: vr(1);
+    padding-right: vr(1);
   }
   @include for-tablet-landscape-up {
+    padding-left: vr(2);
+    padding-right: vr(2);
   }
   @include for-desktop-up {
     padding-left: vr(3);
+    padding-right: vr(3);
   }
   @include for-big-desktop-up {
     padding-left: vr(5);
+    padding-right: vr(5);
   }
 }
 
