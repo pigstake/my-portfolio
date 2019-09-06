@@ -15,10 +15,10 @@ class App extends Component {
             <p>Since 2017, I’ve worked as a cofounder and lead product design contributor on startup teams in fashion, ecommerce, and finance.</p>
             <h3>Guai Goods</h3>
             <h5>Helping you find secondhand and slow fashion clothes and inspiration <br /> <a href='http://guaigoods.com'>Visit Guai Goods</a></h5>
-            <p>The fashion industry is toxic – for you, for its workers, for the environment. My wife and I aim to solve clothing problems with our love of secondhand and slow fashion. Right now we publish a weekly newsletter meant to inspire, educate, and provide a healthier shopping outlet. Take a sneak peak at items we curate on <a href="https://www.instagram.com/guaigoods/">Instagram @guaigoods</a>.</p>
+            <p>The fashion industry is toxic – <a href='https://www.greenpeace.org/archive-international/en/publications/Campaign-reports/Toxics-reports/After-the-Binge-the-Hangover/'>for you</a>, <a href='https://www.theguardian.com/teacher-network/teacher-blog/2013/may/19/fashion-industry-garment-factory-collapse-teaching-news-resources'>for the people who make your clothes</a>, <a href='https://www.vice.com/en_us/article/437egg/why-fashion-is-the-worlds-most-polluting-industry'>for the environment</a>. If you prefer watching to reading, watch the <a href='https://medium.com/@didem.demirci/overconsumption-in-fashion-industry-3cd58ec84020'>TED talks linked in this Medium piece</a>. My wife and I aim to solve clothing problems with our love of secondhand and slow fashion. Right now we publish a weekly newsletter meant to inspire, educate, and provide a healthier shopping outlet. Take a sneak peak at items we curate on <a href="https://www.instagram.com/guaigoods/">Instagram @guaigoods</a>.</p>
             <h3>Shogun</h3>
             <h5>High-impact features for the most popular Shopify page builder <br/> <a href='http://www.getshogun.com'>Visit Shogun</a></h5>
-            <p>When your team quadruples in size in a year, expect growing pains. I helped engineers better grok designs with standardized UI patterns. We put the patterns to work building Shogun’s long overdue responsive editing tools and custom form builder.</p>
+            <p>When your team quadruples in size in a year, <a href='https://norrisnode.com/3-inflection-points/'>expect growing pains</a>. I helped engineers better grok designs with standardized UI patterns. We put the patterns to work building Shogun’s long overdue responsive editing tools and custom form builder.</p>
             <img className='img-full' src='portfolio/shogun-responsive.gif' alt='Animated gif of Shogun responsive editor'/>
             <h3>Kindur</h3>
             <h5>Retirement finance advice  and a living style guide <br/> <a href='http://www.kindur.com'>Visit Kindur</a></h5>
@@ -177,7 +177,7 @@ class App extends Component {
               <li><cite>Shape Up</cite><h5 className='m-bottomOnly'>by Ryan Singer</h5></li>
               <li><cite>Saga: Book Three</cite><h5 className='m-bottomOnly'>by Brian K. Vaughan</h5></li>
               <li><cite>Everfair</cite><h5 className='m-bottomOnly'>by Nisi Shawl</h5></li>
-              <li><cite>The Wind's Twelve Quarters</cite><h5 className='m-bottomOnly'>by Ursula K. Le Guin</h5></li>
+              <li><cite>The Wind’s Twelve Quarters</cite><h5 className='m-bottomOnly'>by Ursula K. Le Guin</h5></li>
             </ul>
           </section>
         </article>
