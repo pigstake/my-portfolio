@@ -174,8 +174,10 @@ class App extends Component {
               <li><cite>The Windup Girl</cite><h5 className='m-bottomOnly'>by Paolo Bacigalupi</h5></li>
               <li><cite>Ruined by Design</cite><h5 className='m-bottomOnly'>by Mike Monteiro</h5></li>
               <li><cite>Blood, Bones & Butter</cite><h5 className='m-bottomOnly'>by Gabrielle Hamilton</h5></li>
+              <li><cite>Shape Up</cite><h5 className='m-bottomOnly'>by Ryan Singer</h5></li>
               <li><cite>Saga: Book Three</cite><h5 className='m-bottomOnly'>by Brian K. Vaughan</h5></li>
               <li><cite>Everfair</cite><h5 className='m-bottomOnly'>by Nisi Shawl</h5></li>
+              <li><cite>The Wind's Twelve Quarters</cite><h5 className='m-bottomOnly'>by Ursula K. Le Guin</h5></li>
             </ul>
           </section>
         </article>
