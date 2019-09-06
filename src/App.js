@@ -159,7 +159,7 @@ class App extends Component {
           <section className='work-copy'>
             <header className='work-header'>
               <h2>About me</h2>
-              <h5>Designer, board-game enthusiast, and amateur bread baker in Brooklyn</h5>
+              <h5>Designer, board game enthusiast, bicycle ogler, and amateur bread baker in Brooklyn</h5>
             </header>
             <p>Hello! <span role="img" aria-label="wave emoji">👋</span> I’m a problem finder, definer, prioritizer, and solver — a Designer. I moderate warm and hospitable research sessions, facilitate lively creative collaborations, help my teams understand users, build design systems, test prototypes, and ship product. My specialty is user-centered design of digital things.</p>
             <p>Since 2010, I’ve been fortunate to work with wonderful in-house, agency, and consulting teams, solving problems for clients all over the world, contributing to and leading the design work, teaching and (often learning!) as I go. I have particularly enjoyed the times working closely with small, diverse teams full of trust and collaborative rhythm. If you’re reading this — thank you.</p>
