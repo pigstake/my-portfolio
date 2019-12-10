@@ -273,6 +273,10 @@ footer {
     padding-right: vr(5);
   }
 }
+.unionStamp {
+  height: auto;
+  max-width: 200px;
+}
 
 //UTILITIES
 .m-topOnly {
@@ -286,4 +290,12 @@ footer {
 }
 .p-bottomOnly {
   padding-top: 0;
+}
+.styleReset {
+  background-color: initial;
+  border: initial;
+  box-shadow: initial;
+  color: initial;
+  text-decoration: initial;
+  transition: initial;
 }

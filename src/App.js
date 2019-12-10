@@ -183,6 +183,9 @@ class App extends Component {
         </article>
         <footer>
           <section className='work-copy'>
+            <figure>
+              <img src='pigSmile.svg' alt='Smiling pig'/>
+            </figure>
             <p>Oh wow! You made it down here. Well, there’s not much more I can say. This site is handmade with &#x2764;, by yours truly, and:</p>
             <ul>
               <li>
@@ -192,9 +195,9 @@ class App extends Component {
                 <a href="https://github.com/pyrsmk/vertical-rhythmic">These mixins</a> and the writing that inspired them, on fluid typography and general web typesetting geekiness, all for your reading pleasure of course
               </li>
             </ul>
-            <figure>
-              <img src='pigSmile.svg' alt='Smiling pig'/>
-            </figure>
+            <a className='styleReset' href='https://www.freelancersunion.org?utm_source=badge&utm_campaign=member&utm_content=member-stamp-200'>
+              <img src='member-badge.svg' alt='Proud member of Freelancers Union' height='200' width='200' className='unionStamp' />
+            </a>
           </section>
         </footer>
       </main>
