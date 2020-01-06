@@ -22,7 +22,7 @@ class App extends Component {
             <img className='img-full' src='portfolio/shogun-responsive.gif' alt='Animated gif of Shogun responsive editor'/>
             <h3>Kindur</h3>
             <h5>Retirement finance advice  and a living style guide <br/> <a href='http://www.kindur.com'>Visit Kindur</a></h5>
-            <p>My role at Kindur was working with engineers to unpack the practical realities of the founder's vision as we built and evaluated the product. Day-to-day included lots of white board sketching with teammates, exploring data visualization options, shaping a loose brand guide into a UI system, and coding in React.</p>
+            <p>My role at Kindur was working with engineers to unpack the practical realities of the founder’s vision as we built and evaluated the product. Day-to-day included lots of white board sketching with teammates, exploring data visualization options, shaping a loose brand guide into a UI system, and coding in React.</p>
             <img className='img-full' src='portfolio/kindur.png' alt='Kindur screenshots'/>
             <h3>Vital Card</h3>
             <h5>Experiment-driven design to optimize acquisition and referrals <br/> <a href='http://bit.ly/vital-card'>Visit Vital</a></h5>
