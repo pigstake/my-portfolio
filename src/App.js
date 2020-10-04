@@ -7,23 +7,27 @@ class App extends Component {
     return (
       <main>
         <header className='hero'>
-          <p className='subtitle'>Hi, I’m <a href='#aboutMe'>Jamie.</a> I’ve been designing for humans and our screens since 2010. Below you’ll find artifacts, examples, and stories of my work. You’ll find aspects of me on <a href='https://twitter.com/pigstake'>Twitter</a>, <a href="https://medium.com/@pigstake">Medium</a>, <a href="https://www.instagram.com/pigstake">Instagram</a>, and <a href="https://www.linkedin.com/in/jamisoncaloras/">LinkedIn</a>.</p>
+          <p className='heroText'>Hi, I’m <a href='#aboutMe'>Jamie.</a> I’ve been designing for humans and our screens since 2010. Here you’ll find work artifacts and stories that range in scope from <strong>design strategy and research</strong> to <strong>design craft and writing code</strong> to <strong>design mentorship and leadership</strong>. Find me on <a href='https://twitter.com/pigstake'>Twitter</a>, <a href="https://medium.com/@pigstake">Medium</a>, <a href="https://www.instagram.com/pigstake">Instagram</a>, and <a href="https://www.linkedin.com/in/jamisoncaloras/">LinkedIn</a>.</p>
         </header>
-        <article className='work'>
-          <section className='work-copy'>
-            <h2>Recent Work</h2>
-            <p>Since 2017, I’ve worked as a cofounder and lead product design contributor on startup teams in fashion, ecommerce, and finance.</p>
+        <article className='recentWork'>
+          <section className='recentWork-piece'>
             <h3>Guai Goods</h3>
             <h5>Helping you find secondhand and slow fashion clothes and inspiration <br /> <a href='http://guaigoods.com'>Visit Guai Goods</a></h5>
             <p>The fashion industry is toxic – <a href='https://www.greenpeace.org/archive-international/en/publications/Campaign-reports/Toxics-reports/After-the-Binge-the-Hangover/'>for you</a>, <a href='https://www.theguardian.com/teacher-network/teacher-blog/2013/may/19/fashion-industry-garment-factory-collapse-teaching-news-resources'>for the people who make your clothes</a>, <a href='https://www.vice.com/en_us/article/437egg/why-fashion-is-the-worlds-most-polluting-industry'>for the environment</a>. If you prefer watching to reading, watch the <a href='https://medium.com/@didem.demirci/overconsumption-in-fashion-industry-3cd58ec84020'>TED talks linked in this Medium piece</a>. My wife and I aim to solve clothing problems with our love of secondhand and slow fashion. Right now we publish a weekly newsletter meant to inspire, educate, and provide a healthier shopping outlet. Take a sneak peak at items we curate on <a href="https://www.instagram.com/guaigoods/">Instagram @guaigoods</a>.</p>
+          </section>
+          <section className='recentWork-piece'>
             <h3>Shogun</h3>
             <h5>High-impact features for the most popular Shopify page builder <br/> <a href='http://www.getshogun.com'>Visit Shogun</a></h5>
             <p>When your team quadruples in size in a year, <a href='https://norrisnode.com/3-inflection-points/'>expect growing pains</a>. I helped engineers better grok designs with standardized UI patterns. We put the patterns to work building Shogun’s long overdue responsive editing tools and custom form builder.</p>
             <img className='img-full' src='portfolio/shogun-responsive.gif' alt='Animated gif of Shogun responsive editor'/>
+          </section>
+          <section className='recentWork-piece'>
             <h3>Kindur</h3>
             <h5>Retirement finance advice  and a living style guide <br/> <a href='http://www.kindur.com'>Visit Kindur</a></h5>
             <p>My role at Kindur was working with engineers to unpack the practical realities of the founder’s vision as we built and evaluated the product. Day-to-day included lots of white board sketching with teammates, exploring data visualization options, shaping a loose brand guide into a UI system, and coding in React.</p>
             <img className='img-full' src='portfolio/kindur.png' alt='Kindur screenshots'/>
+          </section>
+          <section className='recentWork-piece'>
             <h3>Vital Card</h3>
             <h5>Experiment-driven design to optimize acquisition and referrals <br/> <a href='http://bit.ly/vital-card'>Visit Vital</a></h5>
             <p>My friend and old coworker recruited me onto the team. He and I established a process in which we could iterate and optimize as quickly as possible over six months. Along with the founder, a data scientist, and two engineers, I ran two-week design and product experiments to optimize sign-ups and referral rate.</p>

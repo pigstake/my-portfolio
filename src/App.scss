@@ -1,137 +1,91 @@
 @import "sass/settings";
 @import "sass/modular-scale";
 @import "sass/vertical-rhythmic";
-@import "sass/grid";
+@import "sass/fluid-type";
 
 html {
-  @include vr-fluid(ms(0), ms(5), 20em, 112.5em);
-  @include vr-optimize();
+  @include fluid-type($min_width, $max_width, $min_font, $max_font);
   background-color: $color-white;
-  line-height: vr-strip(vr(1));
+  // font-size: ms(0);
+  line-height: 1.5;
 }
 body {
   color: $color-black;
-  font-family: $serif;
-  font-size: ms(1);
+  font-family: $sans-serif;
+  // font-size: ms(0);
+  font-weight: 400;
   margin: 0;
-  // @include vr-grid();
+  @include vr-grid();
 }
-// body:before {
-//     content: "";
-//     position: fixed;
-//     background: $border-color;
-//     left: 0;
-//     right: 0;
-//     height: $border-width;
-//     z-index: 2;
-// }
-// body:before {
-//   top: 0;
-// }
-// body:after {
-//   bottom: 0;
-// }
 main {
   overflow: visible;
 }
 .hero {
   background-color: $color-peach;
-  padding: vr(2) vr(1, ms(3)) vr(1);
-  @include for-tablet-portrait-up {
-    padding-left: vr(1);
-    padding-right: vr(1);
-  }
-  @include for-tablet-landscape-up {
-    padding-left: vr(2);
-    padding-right: vr(2);
-  }
-  @include for-desktop-up {
-    padding-left: vr(3);
-    padding-right: vr(3);
-  }
-  @include for-big-desktop-up {
-    padding-left: vr(5);
-    padding-right: vr(5);
-  }
+  padding: vr(2) vr(1) vr(1);
+  margin-bottom: vr(3);
+}
+.heroText {
+  max-width: 31em;
 }
 h1 {
   font-family: $sans-serif;
-  font-size: ms(0);
-  font-weight: 400;
+  font-size: ms(2);
+  font-weight: 500;
+  letter-spacing: -0.5rem;
+  line-height: 0.8;
   margin: 0;
+  text-transform: uppercase;
   @include for-tablet-portrait-up {
   }
   @include for-tablet-landscape-up {
   }
 }
-.subtitle {
-  @include for-tablet-portrait-up {
-    max-width: vr(20);
-  }
+.hero-title span:nth-child(1) {
+  color: $color-lightBlue;
+  text-shadow: -8px 0 $color-blue, 0 8px $color-blue, 8px 0 $color-blue, 0 -8px $color-blue;
 }
-h2,
-h3 {
- font-family: $sans-serif;
- // font-style: italic;
- font-weight: 800;
+.hero-title span:nth-child(3) {
+  color: $color-peach;
+  text-shadow: -8px 0 $color-red, 0 8px $color-red, 8px 0 $color-red, 0 -8px $color-red;
 }
+.hero-title span:nth-child(5) {
+  color: #E8FF00;
+  mix-blend-mode: multiply;
+  text-shadow: -8px 0 $color-black, 0 8px $color-black, 8px 0 $color-black, 0 -8px $color-black;
+}
+// @supports (-webkit-text-stroke: 0.25em #1717D1) {
+//   .hero {
+//     margin: -0.54rem 0 0 -0.66rem;
+//   }
+//   .hero-title span:nth-child(1),
+//   .hero-title span:nth-child(3),
+//   .hero-title span:nth-child(5) {
+//     text-shadow: none;
+//   }
+//   .hero-title span:nth-child(1) {
+//     -webkit-text-stroke: 0.025em $color-blue;
+//   }
+//   .hero-title span:nth-child(3) {
+//     -webkit-text-stroke: 0.025em $color-red;
+//   }
+//   .hero-title span:nth-child(5) {
+//     -webkit-text-stroke: 0.025em $color-black;
+//   }
+// }
 h2,
 h3,
 p {
   margin-top: 0;
 }
-h2 {
-  font-size: ms(9);
-  letter-spacing: -1px;
-  line-height: vr-strip(vr(2, ms(9)));
-  margin-bottom: vr(1, ms(9));
-  position: relative;
-  @include for-tablet-portrait-up {
-    font-size: ms(10);
-    letter-spacing: -2px;
-  line-height: vr-strip(vr(2, ms(10)));
-    margin-bottom: vr(1, ms(10));
-  }
-  @include for-tablet-landscape-up {
-    font-size: ms(10);
-    letter-spacing: -1px;
-    margin-bottom: vr(1, ms(11));
-  }
-}
-h3 {
-  font-size: ms(3);
-  line-height: vr-strip(vr(1, ms(3)));
-  margin: vr(3.5, ms(3)) 0 vr(0.5, ms(3));
-}
-h4 {
-  color: $color-gray;
-  font-size: ms(2);
-  font-weight: normal;
-  letter-spacing: 0.02em;
-  line-height: vr(1, ms(2));
-  margin: vr(2, ms(2)) 0 vr(1, ms(2));
-  @media screen and (min-width : 480px) {
-    margin: vr(1, ms(4)) 0 vr(2, ms(4));
-  }
-}
-h5 {
-  color: $color-gray;
-  font-family: $sans-serif;
-  font-size: ms(-2);
-  font-weight: 400;
-  margin: vr(0.5, ms(-4)) 0 vr(0.5, ms(-4));
-  text-transform: uppercase;
-  @include for-tablet-portrait-up {
-    font-size: ms(-3);
-  }
-}
 p {
-  margin: 0 0 vr(1);
+  line-height: vr(1);
+  margin: 0 0 1.5rem;
 }
 a {
   transition: background 300ms ease-out;
   border-bottom: 0px solid $color-yellow;
-  box-shadow: inset 0 vr(1)/-16 0 $color-yellow;
+  box-shadow: inset 0 -0.3125em 0 $color-yellow;
   color: $color-black;
   text-decoration: none;
   &:focus,
@@ -192,24 +146,24 @@ hr {
   opacity: 0.25;
 }
 .work {
-  padding: vr(3) vr(1, ms(3));
-  @include for-tablet-portrait-up {
-    padding-bottom: vr(4);
-    padding-left: vr(1);
-    padding-right: vr(1);
-  }
-  @include for-tablet-landscape-up {
-    padding-left: vr(2);
-    padding-right: vr(2);
-  }
-  @include for-desktop-up {
-    padding-left: vr(3);
-    padding-right: vr(3);
-  }
-  @include for-big-desktop-up {
-    padding-left: vr(5);
-    padding-right: vr(5);
-  }
+  // padding: vr(3) vr(1, ms(3));
+  // @include for-tablet-portrait-up {
+  //   padding-bottom: vr(4);
+  //   padding-left: vr(1);
+  //   padding-right: vr(1);
+  // }
+  // @include for-tablet-landscape-up {
+  //   padding-left: vr(2);
+  //   padding-right: vr(2);
+  // }
+  // @include for-desktop-up {
+  //   padding-left: vr(3);
+  //   padding-right: vr(3);
+  // }
+  // @include for-big-desktop-up {
+  //   padding-left: vr(5);
+  //   padding-right: vr(5);
+  // }
 }
 .work-copy {
   max-width: vr(20);

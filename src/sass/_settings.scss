@@ -3,23 +3,22 @@
 
 // Color palette
 $color-white: rgb(255,253,253);
-$color-gray: rgb(131,122,117);
-$color-black: rgb(4,21,31);
+$color-black: rgb(40,38,44);
+$color-gray: rgba($color-black, 0.5);
 $color-yellow: rgb(232,255,0);
 $color-peach: rgb(255,232,209);
-$color-orange: rgb(255,184,111);
-$color-green: rgb(145,245,173);
-$color-darkGreen: rgb(21,122,110);
-$color-blue: rgb(110,68,255);
-$color-red: rgb(238,96,85);
+$color-blue: rgb(23,23,209);
+$color-darkBlue: rgb(42,46,163);
+$color-lightBlue: rgb(205,237,253);
+$color-red: rgb(255,0,0);
 
 // Fonts
 $serif: granville, Times, "Times New Roman", serif;
-$sans-serif: granville, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans-serif: 'Inter', "Helvetica Neue", Helvetica, Arial, sans-serif;
 $mono: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 
 // Set modular scale vars
-$ms-ratio: $major-second;
+$ms-ratio: $octave;
 /*
 $phi	1:1.618	1.618
 $golden	1:1.618	1.618
@@ -40,10 +39,18 @@ $minor-third	5:6	1.2
 $major-second	8:9	1.125
 $minor-second	15:16	1.067
 */
-$ms-base: 1em;
+$ms-base: 20px;
 
+// ******************* PHASE OUT
 // Set vertical-rhythm vars
-$vr-rhythm: ms(4);
+$vr-rhythm: 1.625;
+// ****************************************************************
+
+// Fluid Type
+$min_width: 320px;
+$max_width: 1800px;
+$min_font: 16px;
+$max_font: 32px;
 
 // Breakpoints
 @mixin for-phone-only {
