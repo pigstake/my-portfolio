@@ -14,7 +14,7 @@ body {
   font-family: $serif;
   font-size: ms(1);
   margin: 0;
-  // @include vr-grid();
+  @include vr-grid();
 }
 // body:before {
 //     content: "";
@@ -66,7 +66,7 @@ h1 {
 }
 .subtitle {
   @include for-tablet-portrait-up {
-    max-width: vr(20);
+    max-width: vr(21);
   }
 }
 h2,
@@ -101,7 +101,7 @@ h2 {
 h3 {
   font-size: ms(3);
   line-height: vr-strip(vr(1, ms(3)));
-  margin: vr(3.5, ms(3)) 0 vr(0.5, ms(3));
+  margin: vr(1.5, ms(3)) 0 vr(0.5, ms(3));
 }
 h4 {
   color: $color-gray;
@@ -109,9 +109,9 @@ h4 {
   font-weight: normal;
   letter-spacing: 0.02em;
   line-height: vr(1, ms(2));
-  margin: vr(2, ms(2)) 0 vr(1, ms(2));
+  margin: vr(1, ms(2)) 0 vr(1, ms(2));
   @media screen and (min-width : 480px) {
-    margin: vr(1, ms(4)) 0 vr(2, ms(4));
+    // margin: vr(1, ms(4)) 0 vr(2, ms(4));
   }
 }
 h5 {
@@ -210,6 +210,12 @@ hr {
     padding-left: vr(5);
     padding-right: vr(5);
   }
+}
+.work-snippet {
+  margin-bottom: vr(3);
+}
+.work-snippet:last-of-type {
+  margin-bottom: 0;
 }
 .work-copy {
   max-width: vr(20);
