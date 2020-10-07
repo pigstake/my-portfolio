@@ -14,7 +14,7 @@ body {
   font-family: $serif;
   font-size: ms(1);
   margin: 0;
-  @include vr-grid();
+  // @include vr-grid();
 }
 // body:before {
 //     content: "";
@@ -37,6 +37,8 @@ main {
 .hero {
   background-color: $color-peach;
   padding: vr(2) vr(1, ms(3)) vr(1);
+  position: relative;
+  z-index: 2;
   @include for-tablet-portrait-up {
     padding-left: vr(1);
     padding-right: vr(1);
@@ -73,7 +75,7 @@ h2,
 h3 {
  font-family: $sans-serif;
  // font-style: italic;
- font-weight: 800;
+ font-weight: 600;
 }
 h2,
 h3,
@@ -104,12 +106,13 @@ h3 {
   margin: vr(1.5, ms(3)) 0 vr(0.5, ms(3));
 }
 h4 {
-  color: $color-gray;
+  color: #E85D75; //$color-gray;
   font-size: ms(2);
   font-weight: normal;
   letter-spacing: 0.02em;
   line-height: vr(1, ms(2));
   margin: vr(1, ms(2)) 0 vr(1, ms(2));
+  position: relative;
   @media screen and (min-width : 480px) {
     // margin: vr(1, ms(4)) 0 vr(2, ms(4));
   }
@@ -157,7 +160,7 @@ ul {
   margin: 0;
   padding: 0;
 }
-li {
+.eggList li {
   background: url(egg.svg) no-repeat;
   background-position: ms(2) ms(-5);
   background-size: ms(1);
@@ -190,6 +193,50 @@ strong {
 hr {
   margin: vr(7) 0;
   opacity: 0.25;
+}
+.siteNav {
+  background-color: $color-white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.siteNav-list {
+  align-items: center;
+  background-color: #e8ff00;
+  display: flex;
+  height: vr(2);
+  justify-content: space-evenly;
+  @include for-tablet-landscape-up {
+    height: vr(1);
+    opacity: 0.7;
+    transition: opacity 300ms ease-out;
+    &:hover {
+      opacity: 1.0;
+    }
+  }
+}
+.siteNav-listItem {
+  list-style: none;
+  position: relative;
+}
+.siteNav-link {
+  text-transform: capitalize;
+}
+.siteNav-tail {
+  height: 100%;
+  left: vr(1) * -1;
+  opacity: 0;
+  position: absolute;
+  top: vr(1) * 0.5;
+  transition: opacity 300ms ease-out;
+  visibility: hidden;
+}
+.siteNav-link:hover + .siteNav-tail {
+  @include for-tablet-landscape-up {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 .work {
   padding: vr(3) vr(1, ms(3));
@@ -250,9 +297,7 @@ hr {
   }
 }
 .pig {
-  bottom: 4px;
-  height: vr(1, ms(1));
-  opacity: 0.7;
+  height: vr(3);
 }
 .emoji {
   height: ms(0);
@@ -283,8 +328,20 @@ footer {
   height: auto;
   max-width: 200px;
 }
+.tail {
+  height: vr(1);
+  left: -2.25rem;
+  position: absolute;
+  top: -1.25rem;
+  @include for-tablet-landscape-up {
+    left: -3rem;
+  }
+}
 
 //UTILITIES
+.strike {
+  text-decoration: line-through;
+}
 .m-topOnly {
   margin-bottom: 0;
 }
