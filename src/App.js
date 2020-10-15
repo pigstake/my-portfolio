@@ -12,11 +12,11 @@ class App extends Component {
         <nav className='siteNav'>
           <ul className='siteNav-list'>
             <li className='siteNav-listItem'>
-              <a className='siteNav-link' href='#stories'>longer work stories</a>
+              <a className='siteNav-link' href='#stories'>Long(ish) Work Stories</a>
               <img className='siteNav-tail' src='pig-tail.svg' alt='A corkscrew pig tail'/>
             </li>
             <li className='siteNav-listItem'>
-              <a className='siteNav-link' href='#snippets'>work snippets</a>
+              <a className='siteNav-link' href='#snippets'>Work Snippets</a>
               <img className='siteNav-tail' src='pig-tail.svg' alt='A corkscrew pig tail'/>
             </li>
           </ul>
@@ -31,25 +31,26 @@ class App extends Component {
               <h2>Dotvoter</h2>
               <h5>Converge, diverge, and save sticky notes <br/> <a href='http://bit.ly/dotvoter'>Visit live app</a> // <a href='http://bit.ly/dotvoter-google-photos'>Browse design artifacts</a></h5>
             </header>
-            <p>Tired of crowding around a wall with your team to place dot votes? Ever need to include remote teammates? Product consulting teams at Philosophie had problems like this almost every day. I designed Dotvoter to solve those problems.</p>
+            <p>Tired of crowding around a wall with your team to place dot votes? Ever need to include remote teammates? Product consulting teams at Philosophie had problems like this almost every day. I paired with an engineer build Dotovter and solve those problems.</p>
+            <p><em>My contribution: </em>Strategy, Design, Research, Front-end Code</p>
           </section>
           <figure className='fullFigure'>
             <img className='img-full' src='portfolio/dotvoter-screenshot--wide.png' alt='Dotvoter home'/>
           </figure>
           <section className='work-copy'>
-            <h3>Surprising research insight</h3>
+            <h3>No more groupthink!</h3>
             <p>Nine out of ten teams always use private voting and six out of ten teams always use private idea generation. Groupthink from public voting was not an initial pain point Dotvoter solved. Private idea generation is typical in physical, sticky-note dot voting. So is public voting; everyone crowds around the sticky notes and places dot stickers. This often proves physically awkward in conference rooms, shuffling around chairs and waiting for other people to move. It also allows voters to game votes and be influenced by groupthink, which is one reason why teams use Dotvoter.</p>
             <figure>
               <a className='img-link' href='http://bit.ly/dotvoter-google-photos'>
                 <img className='img-full' src='portfolio/dotvoter-whiteboard.jpg' alt='Sketching on a whiteboard'/>
               </a>
-              <figcaption>A major challenge was to understand and model the states of dot voting in the physical experience and translating that to a digital experience</figcaption>
+              <figcaption>We needed to understand and model the states of dot voting in the physical experience and translate that to a digital experience. This is one of many divergent sketches.</figcaption>
             </figure>
           </section>
           <section className='work-copy'>
             <h3>Key design decisions</h3>
             <p>Dotvoter is often used in meetings and workshops. People bring various devices to these events and there’s often a big screen in the room. So, Dotvoter is accessible on phones, big screens, and everything between. Clickable elements are finger-friendly and fonts are readable from a big, distant screen.</p>
-            <p>The color palette — the original sticky note yellow, bright pink and teal — is meant to evoke the bright, playful colors of many sticky notes. The typeface is Omnes Pro, which provides a friendly informality and, on the cards, suggests handwriting.</p>
+            <p>The color palette — the original sticky note yellow, bright pink and teal — is meant to evoke the bright, playful colors of many sticky notes. The typeface is Omnes Pro, which provides a friendly informality and, on the cards, suggests handwriting without sacrificing legibility.</p>
           </section>
           <figure className='fullFigure'>
             <img className='img-full' src='portfolio/dotvoter-screenshot--twoWidths.png' alt='Dotvoter boards with votes'/>
@@ -67,13 +68,14 @@ class App extends Component {
               <h5>Visualizing work data to help distributed sales teams work smarter and happier <br/> <a href='http://bit.ly/pwc-badger-google-photos'>Browse design artifacts</a></h5>
             </header>
             <p>Badger is a performance feedback mobile app. How can personal data help remote salespeople? Their teams? Their managers? And how could my team alleviate the mistrust in how managers could use data? I led design on this product at Philosophie. We were a team of five — three engineers, myself, and a product manager.</p>
+            <p><em>My contribution: </em>Design, Research, Front-end Code</p>
           </section>
           <figure className='fullFigure'>
             <img className='img-full' src='portfolio/badger-screenshot.png' alt='Badger app'/>
           </figure>
           <section className='work-copy'>
             <h3>Key design decisions</h3>
-            <p>The sales team already received weekly reports, so I tailored the Badger experience to fit into this existing behavior. Graphs, performance summaries, and a notification schedule were designed around weeks.</p>
+            <p>The sales team already received weekly reports, so I tailored the Badger experience to fit into this existing behavior. Graphs, performance summaries, and a notification schedule were designed around familar work rhythms.</p>
             <p>Bright colors and slightly informal typography provide a memorable experience among the usual apps our users have at work. The app uses Libre Franklin, which is versatile enough to make big numbers and small fonts look good.</p>
             <figure>
               <a className='img-link' href='http://bit.ly/pwc-badger-google-photos'>
@@ -89,10 +91,11 @@ class App extends Component {
           <section className='work-copy'>
             <header className='work-header'>
               <h2>Field Service OS</h2>
-              <h5>A friendly robot and new way of working to connect a field service team <br/> <a href='http://bit.ly/pwc-fso-google-photos'>Browse design artifacts</a></h5>
+              <h5>A friendly chatbot and new way of working to connect a field service team <br/> <a href='http://bit.ly/pwc-fso-google-photos'>Browse design artifacts</a></h5>
             </header>
-            <p>How might a band of techies help a 70-year old service company better serve their customers? We were a team of six — one strategist, two designers, two engineers, and a program manager. I led the team through <a href='http://bit.ly/organizing-ux-research'>field research</a>, cooperative design workshops, and prototype tests with dispatchers, warehouse managers, and field technicians to discover how we could help.</p>
+            <p>How might a 70-year old field service company better serve their customers? We were a team of six — one strategist, two designers, two engineers, and a program manager. I led the team through <a href='http://bit.ly/organizing-ux-research'>field research</a>, cooperative design workshops, and prototype tests with dispatchers, warehouse managers, and field technicians to discover how we could help.</p>
           </section>
+          <p><em>My contribution: </em>Design, Research, Strategy, Creative Workshops</p>
           <figure className='fullFigure'>
             <img className='img-full' src='portfolio/fso-screenshot.png' alt='FSO app'/>
           </figure>
@@ -116,6 +119,7 @@ class App extends Component {
               <h5>Better pizza delivery in the Big Apple <br/> <a href='http://bit.ly/bakers-pizza-google-photos'>Browse design artifacts</a></h5>
             </header>
             <p>I worked with a New York City pizza restaurant owner as product and design lead. He wanted to grow online orders and move away from third-party solutions. I taught him how to build digital products and services in a Lean way, launching experiments to test ideas and discover opportunities for his customers.</p>
+            <p><em>My contribution: </em>Design, Research, Strategy</p>
           </section>
           <figure className='fullFigure'>
             <img className='img-full' src='portfolio/bakers-screenshot--home.png' alt='Baker’s Pizza'/>

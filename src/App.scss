@@ -205,6 +205,7 @@ hr {
   align-items: center;
   background-color: #e8ff00;
   display: flex;
+  font-size: ms(-1);
   height: vr(2);
   justify-content: space-evenly;
   @include for-tablet-landscape-up {
@@ -221,7 +222,6 @@ hr {
   position: relative;
 }
 .siteNav-link {
-  text-transform: capitalize;
 }
 .siteNav-tail {
   height: 100%;
